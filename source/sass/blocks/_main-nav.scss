@@ -1,0 +1,22 @@
+.main-nav {
+  max-width: 741px;
+  width: 100%;
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.main-nav__item a {
+  color: $color-main-header;
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
