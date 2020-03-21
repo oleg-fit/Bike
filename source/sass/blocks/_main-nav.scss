@@ -33,51 +33,8 @@
   color: $color-header-active;
 }
 
-.main-nav__item--basket,
-.main-nav__item--search {
-  display: none;
-}
-
 /* =====================================================================================
 Media max-width: 1050px*/
-@media (max-width: 1150px) {
-  .main-nav {
-    display: none;
+// @media (max-width: 1150px) {
 
-    margin-top: 33px;
-
-    order: 1;
-  }
-
-  .body--nojs .main-nav {
-    display: block;
-
-    margin-bottom: 20px;
-  }
-
-  .main-nav__list {
-    flex-direction: column;
-
-    padding-left: 15px;
-  }
-
-  .main-nav__item {
-    max-width: 242px;
-
-    margin-bottom: 20px;
-  }
-
-  .main-nav__item--basket,
-  .main-nav__item--search {
-    display: block;
-  }
-
-  .main-nav__item--basket {
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    border-top: 1px solid $color-main-header;
-    border-bottom: 1px solid $color-main-header;
-  }
-
-}
+// }

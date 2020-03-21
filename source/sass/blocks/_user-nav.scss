@@ -18,12 +18,12 @@
   fill: $color-main-header;
 }
 
-.user-nav__item--user {
+.user-nav__item--user svg {
   width: 18px;
   height: 21px;
 }
 
-.user-nav__item--search {
+.user-nav__item--search svg {
   margin-left: 28px;
 
   width: 18px;
@@ -32,7 +32,9 @@
 
 .user-nav__item--basket {
   margin-left: 23px;
+}
 
+.user-nav__item--basket svg {
   width: 22px;
   height: 19px;
 }
@@ -48,29 +50,6 @@
 
 /* =====================================================================================
 Media max-width: 1150px*/
-@media (max-width: 1150px) {
-  .user-nav {
-    flex-basis: 30%;
-  }
-  .user-nav__list {
-    justify-content: flex-end;
-  }
+// @media (max-width: 1150px) {
 
-  .user-nav__item--user {
-    display: none;
-  }
-
-  .user-nav__item--search {
-    display: none;
-  }
-
-  .user-nav__item--basket {
-    margin-left: 0;
-  }
-
-  .body--nojs {
-    .user-nav {
-      order: 3;
-    }
-  }
-}
+// }

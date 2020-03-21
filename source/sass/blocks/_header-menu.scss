@@ -1,0 +1,93 @@
+.sidebar-menu {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  z-index: 5;
+
+  width: 95%;
+  min-height: 100vh;
+
+  box-shadow: 4px 0 20px #171716;
+  background-color: #f0ede8;
+}
+
+.sidebar-menu--inner {
+  margin-top: 18px;
+}
+
+.sidebar-menu__user-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar-menu__btn-close svg {
+  width: 14px;
+  height: 14px;
+
+  fill: $color-main-header;
+}
+
+.sidebar-menu__user-name {
+  margin-left: 8px;
+
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.7px;
+
+  color: $color-main-header;
+}
+
+.sidebar-menu__user-name svg {
+  width: 12px;
+  height: 15px;
+
+  margin-right: 5px;
+
+  fill: $color-main-header;
+}
+
+.sidebar-menu__user-logout {
+  width: 16px;
+  height: 18px;
+
+  fill: $color-pink;
+}
+
+.sidebar-menu__list {
+  margin-top: 49px;
+  margin-bottom: 0;
+  padding-left: 15px;
+
+  list-style: none;
+}
+
+.sidebar-menu__list-item {
+  margin-bottom: 20px;
+}
+
+.sidebar-menu__list-item a {
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 1.3px;
+
+  color: $color-main-header;
+}
+
+.sidebar-menu__list-item--basket {
+  margin-bottom: 17px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-top: 1px solid $color-main-header;
+  border-bottom: 1px solid $color-main-header;
+}
+
+.sidebar-menu__list-search svg {
+  width: 16px;
+  height: 16px;
+
+  margin-right: 5px;
+
+  fill: $color-main-header;
+}
