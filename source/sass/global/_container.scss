@@ -7,3 +7,12 @@
   padding-bottom: 0;
   padding-left: 53px;
 }
+
+/* =====================================================================================
+Media max-width: 1150px*/
+@media (max-width: 1150px) {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
