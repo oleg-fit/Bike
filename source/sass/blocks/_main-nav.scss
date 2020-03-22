@@ -35,6 +35,21 @@
 
 /* =====================================================================================
 Media max-width: 1050px*/
-// @media (max-width: 1150px) {
+@media (max-width: 1150px) {
+  .main-nav {
+    max-width: 630px;
+  }
 
-// }
+  .main-nav__item a {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .main-nav {
+    display: none;
+  }
+}

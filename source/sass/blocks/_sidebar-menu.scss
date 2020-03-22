@@ -9,10 +9,30 @@
 
   box-shadow: 4px 0 20px #171716;
   background-color: #f0ede8;
+
+  transition: all linear 0.5s;
 }
 
-.sidebar-menu--inner {
+.sidebar-menu--opened {
+  left: 0;
+}
+
+.body--nojs .sidebar-menu {
+  position: static;
+
+  width: 100%;
+  min-height: 450px;
+
+  box-shadow: none;
+}
+
+.sidebar-menu__inner {
   margin-top: 18px;
+}
+
+.body--nojs .sidebar-menu__inner {
+  margin-top: 0;
+  padding-top: 15px;
 }
 
 .sidebar-menu__user-block {
@@ -25,6 +45,19 @@
   height: 14px;
 
   fill: $color-main-header;
+}
+
+.body--nojs .sidebar-menu__btn-close {
+  display: none;
+}
+
+.sidebar-menu__btn-close:focus svg,
+.sidebar-menu__btn-close:hover svg {
+  fill: $color-header-hover;
+}
+
+.sidebar-menu__btn-close:active svg {
+  fill: $color-header-active;
 }
 
 .sidebar-menu__user-name {
@@ -72,6 +105,15 @@
   letter-spacing: 1.3px;
 
   color: $color-main-header;
+}
+
+.sidebar-menu__list-item a:focus,
+.sidebar-menu__list-item a:hover {
+  color: $color-header-hover;
+}
+
+.sidebar-menu__list-item a:active {
+  color: $color-header-active;
 }
 
 .sidebar-menu__list-item--basket {
