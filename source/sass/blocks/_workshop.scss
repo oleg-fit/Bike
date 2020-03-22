@@ -1,0 +1,113 @@
+.workshop {
+  padding-top: 123px;
+  padding-bottom: 96px;
+
+  background-image: url("../img/workshop-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.workshop__inner {
+  display: flex;
+}
+
+.workshop__img {
+  max-width: 463px;
+  width: 100%;
+  min-height: 357px;
+
+  margin-right: 59px;
+
+  background-image:
+    radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%),
+    url("../img/workshop-person-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.workshop__content {
+  max-width: 507px;
+}
+
+.workshop__content h2 {
+  margin-top: -8px;
+  margin-bottom: 16px;
+
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+}
+
+.workshop__content p {
+  max-width: 475px;
+  margin-top: 0;
+  margin-bottom: 11px;
+
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  color: $color-white;
+}
+
+.workshop__content a {
+  margin-top: 43px;
+}
+
+/* =====================================================================================
+Media max-width: 1030px*/
+@media (max-width: 1130px) {
+  .workshop__content h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .workshop__content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .workshop {
+    padding-top: 33px;
+    padding-bottom: 0;
+  }
+
+  .workshop__inner {
+    flex-direction: column-reverse;
+
+    text-align: center;
+  }
+
+  .workshop__img {
+    max-width: 289px;
+    min-height: 300px;
+    margin-top: 21px;
+    margin-right: auto;
+    margin-bottom: -26px;
+    margin-left: auto;
+
+    background-image:
+      radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%),
+      url("../img/workshop-person-bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .workshop__content {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .workshop__content p {
+    margin-bottom: 9px;
+  }
+
+  .workshop__content a {
+    display: none;
+  }
+}

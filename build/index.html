@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Стартовый шаблон</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body class="body--nojs">
@@ -194,19 +195,178 @@
       <div class="container">
         <div class="hero__inner">
 
+          <h1 class="visually-hidden">
+            Магазин Велосипедов "Chopper Bikeshop"
+          </h1>
 
+          <div class="hero__content">
+            <h2>
 
-
-
-
+            </h2>
+          </div>
 
         </div> <!--/.hero__inner -->
       </div> <!--/.container -->
     </section> <!--/.hero -->
 
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__inner">
+
+          <div class="advantages__content">
+
+            <h2 class="advantages__title">
+              У нас Более 200 моделей прогулочных велосипедов для настоящих мужчин
+            </h2>
+
+            <p class="advantages__text">
+              Бесплатный выездной тест-драйв на все модели. Система рассрочки 0-0-5. Для членов клуба бесплатно предоставляется выездной сервис, зимнее&nbspхранение и куча привелегий от партнеров.
+            </p>
+
+          </div> <!--/.advantages__content -->
+
+          <!-- <div class="advantages-slider">
+            <div class="advantages-slider__inner swiper-wrapper">
+
+              <div class="advantages-slider__slide swiper-slide">
+                <div class="advantages-slider__slide__inner">
+                  Slide 1
+                </div>
+              </div>
+
+              <div class="advantages-slider__slide swiper-slide">
+                <div class="advantages-slider__slide__inner">
+                  Slide 2
+                </div>
+              </div>
+
+              <div class="advantages-slider__slide swiper-slide">
+                <div class="advantages-slider__slide__inner">
+                  Slide 3
+                </div>
+              </div>
+
+              <div class="advantages-slider__slide swiper-slide">
+                <div class="advantages-slider__slide__inner">
+                  Slide 4
+                </div>
+              </div>
+
+              <div class="advantages-slider__slide swiper-slide">
+                <div class="advantages-slider__slide__inner">
+                  Slide 5
+                </div>
+              </div>
+            </div>
+
+
+            <div class="advantages-slider__button-next"></div>
+            <div class="advantages-slider__button-prev"></div>
+
+          </div>  -->
+
+
+
+
+
+        </div> <!--/.advantages__inner -->
+      </div> <!--/.container -->
+    </section> <!--/.advantages -->
+
+    <section class="workshop">
+      <div class="container">
+        <div class="workshop__inner">
+
+          <div class="workshop__img">
+
+          </div>
+
+          <div class="workshop__content">
+            <h2>Мастерская</h2>
+
+            <p>
+              Наши мастера всегда готовы привести в&nbsp;чувство вашего коня, кастомизировать любую модель или просто помочь советом.
+            </p>
+
+            <p>
+              Возможен выезд по вашему адресу. Для&nbsp;велосипедов, купленных у нас, обслуживание предоставляется бесплатно.
+            </p>
+
+            <a class="main-btn" href="#">
+              Подробнее
+            </a>
+          </div>
+
+        </div> <!--/.workshop__inner -->
+      </div> <!--/.container -->
+    </section> <!--/.advantages -->
+
+    <section class="accessories">
+      <div class="container">
+        <div class="accessories__inner">
+
+          <div class="accessories__content">
+
+            <h2 class="accessories__title">
+              Запчасти и аксессуары
+            </h2>
+
+            <p class="accessories__text">
+              Всегда большой выбор запчастей и аксессуаров для чоппер-байков. Если вы чего-то не нашли в наличии, наши консультанты помогут заказать и доставить товар из любой точки мира.
+            </p>
+
+          </div> <!--/.advantages__content -->
+
+
+        </div> <!--/.advantages__inner -->
+      </div> <!--/.container -->
+    </section> <!--/.advantages -->
+
+    <section class="club">
+      <div class="container">
+        <div class="club__inner">
+
+          <div class="club__content">
+            <h2>Вступай в клуб</h2>
+
+            <p>
+              У тебя уже есть чоппер-байк?
+            </p>
+
+            <p>
+              Регистрируйся и получай специальные привелегии, приглашения на закрытые мероприятия, специальные цены в&nbsp;нашем магазине и много других плюшек.
+            </p>
+
+            <a class="main-btn" href="#">
+              Вступить
+            </a>
+          </div>
+
+          <div class="club__img">
+
+          </div>
+
+        </div> <!--/.club__inner -->
+      </div> <!--/.container -->
+    </section> <!--/.club -->
+
+
+
   </main>
 
+
   <script src="js/script.js"></script>
+
+  <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+
+  <script>
+    var swiper = new Swiper('.advantages-slider', {
+      navigation: {
+        nextEl: '.advantages-slider__button-next',
+        prevEl: '.advantages-slider__button-prev',
+      },
+    });
+  </script>
 
 </body>
 </html>

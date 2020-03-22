@@ -1,0 +1,115 @@
+.club {
+  padding-top: 128px;
+  padding-bottom: 291px;
+
+  background-image: url("../img/workshop-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.club__inner {
+  display: flex;
+}
+
+.club__img {
+  max-width: 529px;
+  width: 100%;
+  min-height: 358px;
+
+  margin-left: 68px;
+
+  background-image:
+    radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%),
+    url("../img/club-bike-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.club__content {
+  max-width: 507px;
+}
+
+.club__content h2 {
+  margin-top: -8px;
+  margin-bottom: 16px;
+
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+}
+
+.club__content p {
+  max-width: 475px;
+  margin-top: 0;
+  margin-bottom: 11px;
+
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  color: $color-white;
+}
+
+.club__content a {
+  margin-top: 73px;
+}
+
+/* =====================================================================================
+Media max-width: 1030px*/
+@media (max-width: 1130px) {
+  .club__content h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .club__content p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .club {
+    padding-top: 33px;
+    padding-bottom: 184px;
+  }
+
+  .club__inner {
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  .club__img {
+    max-width: 290px;
+    min-height: 300px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-image:
+      radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%),
+      url("../img/club-bike-bg-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .club__content {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .club__content p {
+    margin-bottom: 9px;
+  }
+
+  .club__content a {
+    margin-top: 33px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+}

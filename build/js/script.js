@@ -26,4 +26,3 @@ var removeClassItem = function () {
 
 burgerBtn.addEventListener('click', addClassItem);
 closeBtn.addEventListener('click', removeClassItem);
-
