@@ -1,8 +1,19 @@
 .footer {
-  position: fixed;
-  bottom: 0;
-
-  margin-bottom: 200px;
-
   width: 100%;
+}
+
+.footer__inner {
+  padding-left: 69px;
+}
+
+.footer__nav-footer {
+  margin-bottom: 33px;
+}
+
+/* =====================================================================================
+Media max-width: 1300px*/
+@media (max-width: 1300px) {
+  .footer__inner {
+    padding-left: 0;
+  }
 }

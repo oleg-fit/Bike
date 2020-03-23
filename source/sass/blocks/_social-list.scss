@@ -32,3 +32,12 @@
   width: 18px;
   height: 18px;
 }
+
+.social-list__link:focus svg,
+.social-list__link:hover svg {
+  fill: $color-header-hover;
+}
+
+.social-list__link:active svg {
+  fill: $color-header-active;
+}

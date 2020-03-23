@@ -1,8 +1,12 @@
 .accessories {
-  min-height: 100vh;
-  padding-top: 80px;
+  min-height: 942px;
+  padding-top: 72px;
 
   background-color: $color-background;
+}
+
+.accessories__content {
+  padding-right: 10px;
 }
 
 .accessories__title {
@@ -22,7 +26,7 @@
 }
 
 .accessories__text {
-  max-width: 800px;
+  max-width: 760px;
   width: 100%;
   margin-top: 0;
   margin-right: auto;

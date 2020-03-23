@@ -1,7 +1,6 @@
 .nav-footer {
   max-width: 1120px;
   width: 100%;
-  margin-bottom: 32px;
   padding-top: 21px;
   padding-bottom: 20px;
 
@@ -28,6 +27,15 @@
   letter-spacing: 0.7px;
 
   color: $color-logo;
+}
+
+.nav-footer__list-item a:focus,
+.nav-footer__list-item a:hover {
+  color: $color-header-hover;
+}
+
+.nav-footer__list-item a:active {
+  color: $color-header-active;
 }
 
 /* =====================================================================================

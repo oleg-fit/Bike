@@ -1,0 +1,107 @@
+.bike-list {
+  display: flex;
+  flex-wrap: wrap ;
+
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.bike-list__item {
+  max-width: 300px;
+  width: 100%;
+
+  margin-right: 29px;
+}
+
+.bike-list__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.bike-list__img-block {
+  position: relative;
+
+  max-width: 178px;
+  width: 100%;
+  min-height: 240px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  border: 6px solid #F0EDE8;
+}
+
+.bike-list__img-block img {
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+
+  max-width: none;
+
+  transform: translateX(-50%);
+}
+
+
+.bike-list__description {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: -25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bike-list__description a {
+  z-index: 10;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bike-list__description img {
+  display: block;
+
+  width: 50px;
+  height: 50px;
+}
+
+.bike-list__description-title {
+  max-width: 170px;
+
+  margin-top: 14px;
+  margin-right: auto;
+  margin-bottom: 6px;
+  margin-left: auto;
+
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #817155;
+}
+
+.bike-list__description-parameters,
+.bike-list__description-country {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: #9B8869;
+}
+
+.bike-list__description-price {
+  margin-top: 9px;
+
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #BA4F4F;
+}

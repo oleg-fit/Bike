@@ -27,6 +27,7 @@
 
 .club__content {
   max-width: 507px;
+  margin-left: 71px;
 }
 
 .club__content h2 {
@@ -53,6 +54,14 @@
 
 .club__content a {
   margin-top: 73px;
+}
+
+/* =====================================================================================
+Media max-width: 1300px*/
+@media (max-width: 1300px) {
+  .club__content {
+    margin-left: 0;
+  }
 }
 
 /* =====================================================================================

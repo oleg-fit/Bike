@@ -17,6 +17,7 @@
   min-height: 357px;
 
   margin-right: 59px;
+  margin-left: 115px;
 
   background-image:
     radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%),
@@ -54,6 +55,15 @@
 .workshop__content a {
   margin-top: 43px;
 }
+
+/* =====================================================================================
+Media max-width: 1300px*/
+@media (max-width: 1300px) {
+  .workshop__img {
+    margin-left: 0;
+  }
+}
+
 
 /* =====================================================================================
 Media max-width: 1030px*/
