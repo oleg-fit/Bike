@@ -14,14 +14,12 @@
 .workshop__img {
   max-width: 463px;
   width: 100%;
-  min-height: 357px;
+  height: 358px;
 
   margin-right: 59px;
   margin-left: 115px;
 
-  background-image:
-    radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%),
-    url("../img/workshop-person-bg.jpg");
+  background-image: radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -49,7 +47,7 @@
   line-height: 30px;
   letter-spacing: 0.2px;
 
-  color: $color-white;
+  color: $color-pearl-bush;
 }
 
 .workshop__content a {
@@ -63,7 +61,6 @@ Media max-width: 1300px*/
     margin-left: 0;
   }
 }
-
 
 /* =====================================================================================
 Media max-width: 1030px*/
@@ -94,16 +91,14 @@ Media max-width: 900px*/
   }
 
   .workshop__img {
-    max-width: 289px;
-    min-height: 300px;
+    width: 289px;
+    height: 300px;
     margin-top: 21px;
     margin-right: auto;
     margin-bottom: -26px;
     margin-left: auto;
 
-    background-image:
-      radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%),
-      url("../img/workshop-person-bg-mobile.jpg");
+    background-image: radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%);
     background-repeat: no-repeat;
     background-size: cover;
   }

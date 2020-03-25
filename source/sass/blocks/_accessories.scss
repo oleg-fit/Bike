@@ -2,7 +2,7 @@
   min-height: 942px;
   padding-top: 72px;
 
-  background-color: $color-background;
+  background-color: $color-pearl-bush;
 }
 
 .accessories__content {
@@ -21,8 +21,7 @@
   line-height: 56px;
   text-align: center;
   text-transform: uppercase;
-
-  color: #817155;
+  color: $color-shadow;
 }
 
 .accessories__text {
@@ -39,7 +38,7 @@
   letter-spacing: 0.2px;
   text-align: center;
 
-  color: #817155;
+  color: $color-shadow;
 }
 
 /* =====================================================================================

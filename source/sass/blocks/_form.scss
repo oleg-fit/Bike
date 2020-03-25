@@ -14,10 +14,10 @@
   padding-bottom: 0;
   padding-left: 0;
 
-  color: #9B8869;
+  color: $color-arrowtown;
 
   border: none;
-  border-bottom: 1px solid #9B8869;
+  border-bottom: 1px solid $color-arrowtown;
 }
 
 .form__fieldset--notborder {
@@ -50,7 +50,7 @@
   width: 16px;
   height: 16px;
 
-  border: 1px solid #9B8869;
+  border: 1px solid $color-arrowtown;
 }
 
 .form__check-box::before {
@@ -64,7 +64,7 @@
   width: 8px;
   height: 8px;
 
-  background: #9B8869;
+  background: $color-arrowtown;
 }
 
 .form__text {
@@ -79,34 +79,34 @@
   letter-spacing: 0.2px;
 }
 
-.form__list-item  input:checked + .form__check-box::before {
+.form__list-item input:checked + .form__check-box::before {
   display: block;
 }
 
-.form__list-item  input:focus + .form__check-box {
-  border: 1px solid #f5b141;
+.form__list-item input:focus + .form__check-box {
+  border: 1px solid $color-casablanca;
 }
 
-.form__list-item  input:checked:focus + .form__check-box {
-  border: 1px solid #f5b141;
+.form__list-item input:checked:focus + .form__check-box {
+  border: 1px solid $color-casablanca;
 }
 
-.form__list-item  input:disabled + .form__check-box::before {
+.form__list-item input:disabled + .form__check-box::before {
   content: "";
 
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 
   display: block;
   width: 14px;
   height: 14px;
 
-  background: red;
+  background: $color-chestnut;
 }
 
-.form__list-item  input:checked:disabled + .form__check-box::before {
+.form__list-item input:checked:disabled + .form__check-box::before {
   display: block;
 
-  background: rgba(#9B8869, 0.5);
+  background: rgba($color-arrowtown, 0.5);
 }

@@ -27,7 +27,7 @@
   width: 10px;
   height: 1px;
 
-  background-color: #9B8869;
+  background-color: $color-arrowtown;
 }
 
 .min-price input,
@@ -42,9 +42,9 @@
   line-height: 18px;
   letter-spacing: 0.8px;
 
-  color: #9B8869;
+  color: $color-arrowtown;
 
-  border: 1px solid #9B8869;
+  border: 1px solid $color-arrowtown;
   background-color: transparent;
 }
 
@@ -59,7 +59,7 @@
   height: 1px;
 
 
-  background-color: #9B8869;;
+  background-color: $color-arrowtown;
 }
 
 .bar {
@@ -68,7 +68,7 @@
 
   margin-left: 27px;
 
-  background-color: #817155;
+  background-color: $color-shadow;
 }
 
 .toggle {
@@ -77,7 +77,7 @@
   width: 6px;
   height: 6px;
 
-  background-color:  #817155;
+  background-color: $color-shadow;
   border-radius: 50%;
 
   cursor: pointer;
@@ -92,6 +92,3 @@
   top: -2px;
   right: 63px;
 }
-
-
-

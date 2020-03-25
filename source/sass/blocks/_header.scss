@@ -1,15 +1,15 @@
 .header {
   padding-top: 37px;
 
-  color: $color-main-header;
+  color: $color-arrowtown;
 }
 
-.body--nojs .header {
+.page--nojs .header {
   position: static;
 
   padding-top: 0;
 
-  background-color: $color-black;
+  background-color: $color-сod-gray;
 }
 
 .header__inner {
@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.body--nojs .header__inner {
+.page--nojs .header__inner {
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -28,6 +28,14 @@
 
 .header__burger-btn {
   display: none;
+
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+
+  background-color: transparent;
+  border: none;
 }
 
 .header__logo {
@@ -40,7 +48,7 @@
   width: 184px;
   height: 30px;
 
-  fill: $color-logo;
+  fill: $color-mongoose;
 }
 
 /* =====================================================================================
@@ -64,15 +72,15 @@ Media max-width: 900px*/
   }
 
   .header__burger-btn svg {
-    fill: $color-main-header;
+    fill: $color-arrowtown;
   }
 
   .header__burger-btn:focus svg,
   .header__burger-btn:hover svg {
-    fill: $color-header-hover;
+    fill: $color-brandy-punch;
   }
 
   .header__burger-btn:active svg {
-    fill: $color-header-active;
+    fill: $color-orange-peel;
   }
 }

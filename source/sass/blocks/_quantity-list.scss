@@ -20,8 +20,8 @@
   padding-left: 11px;
   padding-right: 11px;
 
-  border-right: 1px solid #9B8869;
-  border-left: 1px solid #9B8869;
+  border-right: 1px solid $color-arrowtown;
+  border-left: 1px solid $color-arrowtown;
 }
 
 .quantity-list__link {
@@ -31,7 +31,7 @@
 /* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
-  .quantity-list  {
+  .quantity-list {
     display: none;
   }
 }

@@ -1,6 +1,6 @@
 .bike-list {
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -31,7 +31,7 @@
   margin-right: auto;
   margin-left: auto;
 
-  border: 6px solid #F0EDE8;
+  border: 6px solid $color-pampas;
 }
 
 .bike-list__img-block img {
@@ -81,7 +81,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #817155;
+  color: $color-shadow;
 }
 
 .bike-list__description-parameters,
@@ -93,7 +93,7 @@
   text-align: center;
   letter-spacing: 0.2px;
 
-  color: #9B8869;
+  color: $color-arrowtown;
 }
 
 .bike-list__description-price {
@@ -104,5 +104,5 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #BA4F4F;
+  color: $color-chestnut;
 }

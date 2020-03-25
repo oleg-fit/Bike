@@ -4,7 +4,7 @@ var sidebarMenu = document.querySelector('.sidebar-menu');
 var burgerBtn = document.querySelector('.header__burger-btn');
 var closeBtn = document.querySelector('.sidebar-menu__btn-close');
 
-bodyPage.classList.remove('body--nojs');
+bodyPage.classList.remove('page--nojs');
 
 var addClassItem = function () {
   sidebarMenu.classList.add('sidebar-menu--opened');

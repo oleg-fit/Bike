@@ -4,8 +4,8 @@
   padding-top: 21px;
   padding-bottom: 20px;
 
-  border-top: 1px solid $color-logo;
-  border-bottom: 1px solid $color-logo;
+  border-top: 1px solid $color-mongoose;
+  border-bottom: 1px solid $color-mongoose;
 }
 
 .nav-footer__list {
@@ -26,16 +26,16 @@
   line-height: 18px;
   letter-spacing: 0.7px;
 
-  color: $color-logo;
+  color: $color-mongoose;
 }
 
 .nav-footer__list-item a:focus,
 .nav-footer__list-item a:hover {
-  color: $color-header-hover;
+  color: $color-brandy-punch;
 }
 
 .nav-footer__list-item a:active {
-  color: $color-header-active;
+  color: $color-orange-peel;
 }
 
 /* =====================================================================================

@@ -15,7 +15,7 @@
 }
 
 .user-nav__item svg {
-  fill: $color-main-header;
+  fill: $color-arrowtown;
 }
 
 .user-nav__item--user svg {
@@ -43,11 +43,11 @@
 
 .user-nav__item a:focus svg,
 .user-nav__item a:hover svg {
-  fill: $color-header-hover;
+  fill: $color-brandy-punch;
 }
 
 .user-nav__item a:active svg {
-  fill: $color-header-active;
+  fill: $color-orange-peel;
 }
 
 /* =====================================================================================

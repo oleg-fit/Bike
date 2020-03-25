@@ -5,19 +5,21 @@
   z-index: 5;
 
   width: 95%;
-  min-height: 100vh;
+  height: 100vh;
 
-  box-shadow: 4px 0 20px #171716;
-  background-color: #f0ede8;
+  box-shadow: 4px 0 20px $color-сod-gray;
+  background-color: $color-pampas;
 
   transition: all linear 0.5s;
+
+  overflow-y: auto;
 }
 
 .sidebar-menu--opened {
   left: 0;
 }
 
-.body--nojs .sidebar-menu {
+.page--nojs .sidebar-menu {
   position: static;
 
   width: 100%;
@@ -30,7 +32,7 @@
   margin-top: 18px;
 }
 
-.body--nojs .sidebar-menu__inner {
+.page--nojs .sidebar-menu__inner {
   margin-top: 0;
   padding-top: 15px;
 }
@@ -44,20 +46,20 @@
   width: 14px;
   height: 14px;
 
-  fill: $color-main-header;
+  fill: $color-arrowtown;
 }
 
-.body--nojs .sidebar-menu__btn-close {
+.page--nojs .sidebar-menu__btn-close {
   display: none;
 }
 
 .sidebar-menu__btn-close:focus svg,
 .sidebar-menu__btn-close:hover svg {
-  fill: $color-header-hover;
+  fill: $color-brandy-punch;
 }
 
 .sidebar-menu__btn-close:active svg {
-  fill: $color-header-active;
+  fill: $color-orange-peel;
 }
 
 .sidebar-menu__user-name {
@@ -68,7 +70,7 @@
   line-height: 19px;
   letter-spacing: 0.7px;
 
-  color: $color-main-header;
+  color: $color-arrowtown;
 }
 
 .sidebar-menu__user-name svg {
@@ -77,14 +79,14 @@
 
   margin-right: 5px;
 
-  fill: $color-main-header;
+  fill: $color-arrowtown;
 }
 
 .sidebar-menu__user-logout {
   width: 16px;
   height: 18px;
 
-  fill: $color-pink;
+  fill: $color-chestnut;
 }
 
 .sidebar-menu__list {
@@ -104,16 +106,16 @@
   line-height: 18px;
   letter-spacing: 1.3px;
 
-  color: $color-main-header;
+  color: $color-arrowtown;
 }
 
 .sidebar-menu__list-item a:focus,
 .sidebar-menu__list-item a:hover {
-  color: $color-header-hover;
+  color: $color-brandy-punch;
 }
 
 .sidebar-menu__list-item a:active {
-  color: $color-header-active;
+  color: $color-orange-peel;
 }
 
 .sidebar-menu__list-item--basket {
@@ -121,8 +123,8 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
-  border-top: 1px solid $color-main-header;
-  border-bottom: 1px solid $color-main-header;
+  border-top: 1px solid $color-arrowtown;
+  border-bottom: 1px solid $color-arrowtown;
 }
 
 .sidebar-menu__list-search svg {
@@ -131,5 +133,5 @@
 
   margin-right: 5px;
 
-  fill: $color-main-header;
+  fill: $color-arrowtown;
 }

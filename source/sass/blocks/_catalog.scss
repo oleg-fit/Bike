@@ -1,5 +1,5 @@
 .catalog {
-  background-color: #E9E1D5;
+  background-color: $color-pearl-bush;
 }
 
 .catalog__inner {
@@ -34,7 +34,7 @@ Media max-width: 900px*/
 
     padding-left: 15px;
 
-    background-color: #F0EDE8;
-    box-shadow: 4px 0px 20px rgba(23, 23, 22, 0.1);
+    background-color: $color-pampas;
+    box-shadow: 4px 0 20px rgba(23, 23, 22, 0.1);
   }
 }
