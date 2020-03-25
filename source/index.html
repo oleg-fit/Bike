@@ -229,45 +229,35 @@
 
           </div> <!--/.advantages__content -->
 
-          <!-- <div class="advantages-slider">
-            <div class="advantages-slider__inner swiper-wrapper">
+          <div class="advantages-slider swiper-container">
 
-              <div class="advantages-slider__slide swiper-slide">
-                <div class="advantages-slider__slide__inner">
-                  Slide 1
+            <div class="test">
+
+              <div class="test2">
+                <div class="my-class">
+
                 </div>
               </div>
 
-              <div class="advantages-slider__slide swiper-slide">
-                <div class="advantages-slider__slide__inner">
-                  Slide 2
+              <div class="test2">
+                <div class="my-class2">
+
                 </div>
               </div>
 
-              <div class="advantages-slider__slide swiper-slide">
-                <div class="advantages-slider__slide__inner">
-                  Slide 3
+              <div class="test2">
+                <div class="my-class3">
+
                 </div>
               </div>
 
-              <div class="advantages-slider__slide swiper-slide">
-                <div class="advantages-slider__slide__inner">
-                  Slide 4
-                </div>
-              </div>
-
-              <div class="advantages-slider__slide swiper-slide">
-                <div class="advantages-slider__slide__inner">
-                  Slide 5
-                </div>
-              </div>
             </div>
 
 
             <div class="advantages-slider__button-next"></div>
             <div class="advantages-slider__button-prev"></div>
 
-          </div>  -->
+          </div>
 
 
 
@@ -472,6 +462,13 @@
 
   <script>
     var swiper = new Swiper('.advantages-slider', {
+      containerModifierClass: 'advantages-slider',
+      wrapperClass: 'test',
+      slideClass: 'test2',
+
+      // slidesPerView: 3,
+      // spaceBetween: 30,
+
       navigation: {
         nextEl: '.advantages-slider__button-next',
         prevEl: '.advantages-slider__button-prev',
