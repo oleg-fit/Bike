@@ -1,4 +1,6 @@
 .catalog {
+  padding-bottom: 200px;
+
   background-color: #e9e1d5;
 }
 
@@ -16,4 +18,25 @@
 .catalog__content {
   max-width: 966px;
   width: 100%;
+}
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .catalog__filter {
+    z-index: 100;
+
+    position: fixed;
+    top: 76px;
+    left: 0;
+
+    max-width: none;
+    width: 95%;
+    min-height: 100vh;
+
+    padding-left: 15px;
+
+    background-color: #F0EDE8;
+    box-shadow: 4px 0px 20px rgba(23, 23, 22, 0.1);
+  }
 }
