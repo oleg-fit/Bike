@@ -1,11 +1,75 @@
 .hero {
   min-height: 768px;
 
-  background-image: url("../img/hero-bg.jpg");
+  background-image: url("../img/hero-bg@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .hero__inner {
   padding-top: 50px;
+}
+
+.hero__content {
+  max-width: 600px;
+  width: 100%;
+
+  margin-left: auto;
+  padding-top: 200px;
+}
+
+.hero__content img {
+  width: 508px;
+  height: 146px;
+}
+
+.hero__content .main-btn {
+  margin-top: 60px;
+  margin-left: 139px;
+}
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .hero {
+    min-height: 596px;
+  }
+
+
+  .hero__content {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 61px;
+
+    text-align: center;
+  }
+
+  .hero__content img {
+    margin-left: 3px;
+
+    width: 246px;
+    height: 71px;
+  }
+
+  .hero__content .main-btn {
+    max-width: 240px;
+    min-height: 59px;
+
+    margin-top: 134px;
+    margin-left: auto;
+    margin-right: auto;
+
+    letter-spacing: 0.7px;
+  }
+}
+
+/* =====================================================================================
+Media max-width: 400px*/
+@media (max-width: 400px) {
+  .hero {
+    background-image: url("../img/hero-bg-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

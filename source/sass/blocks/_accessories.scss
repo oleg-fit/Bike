@@ -46,11 +46,17 @@
 Media max-width: 850px*/
 @media (max-width: 850px) {
   .accessories {
-    padding-top: 25px;
+    min-height: 730px;
+
+    padding-top: 51px;
+  }
+
+  .accessories__inner {
+    padding-left: 8px;
   }
 
   .accessories__title {
-    margin-bottom: 13px;
+    margin-bottom: 15px;
 
     font-size: 22px;
     line-height: 30px;

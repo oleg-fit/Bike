@@ -46,7 +46,13 @@
 Media max-width: 850px*/
 @media (max-width: 850px) {
   .advantages {
+    min-height: 767px;
+
     padding-top: 25px;
+  }
+
+  .advantages__inner {
+    padding-left: 8px;
   }
 
   .advantages__title {

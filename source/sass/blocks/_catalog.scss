@@ -1,17 +1,19 @@
+.catalog {
+  background-color: #e9e1d5;
+}
+
 .catalog__inner {
   display: flex;
-
-  background-color: #e9e1d5;
 }
 
 .catalog__filter {
   max-width: 182px;
   width: 100%;
+
+  margin-right: 63px;
 }
 
 .catalog__content {
   max-width: 966px;
   width: 100%;
 }
-
-

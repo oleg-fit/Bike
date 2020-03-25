@@ -1,0 +1,37 @@
+.quantity-list {
+  display: flex;
+  align-items: center;
+
+  width: 200px;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.quantity-list__item {
+  margin-right: 10px;
+}
+
+.quantity-list__item:nth-child(3) {
+  margin-right: 5px;
+  padding-left: 11px;
+  padding-right: 11px;
+
+  border-right: 1px solid #9B8869;
+  border-left: 1px solid #9B8869;
+}
+
+.quantity-list__link {
+  white-space: nowrap;
+}
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .quantity-list  {
+    display: none;
+  }
+}
