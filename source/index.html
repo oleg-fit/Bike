@@ -233,56 +233,56 @@
 
             <div class="test swiper-wrapper">
 
-              <div class="test2 swiper-slide">
+              <div class="test2 ">
                 <div class="my-class">
 
                 </div>
               </div>
 
-              <div class="test2 swiper-slide">
-                <div class="my-class2">
+              <div class="test2 ">
+                <div class="my-class my-class2">
 
                 </div>
               </div>
 
-              <div class="test2 swiper-slide">
-                <div class="my-class3">
+              <div class="test2 ">
+                <div class="my-class my-class3">
 
                 </div>
               </div>
 
-              <div class="test2 swiper-slide">
-                <div class="my-class">
+              <div class="test2 ">
+                <div class="my-class my-class">
 
                 </div>
               </div>
 
-              <div class="test2 swiper-slide">
-                <div class="my-class2">
+              <div class="test2 ">
+                <div class="my-class my-class2">
 
                 </div>
               </div>
 
-              <div class="test2 swiper-slide">
-                <div class="my-class3">
+              <div class="test2 ">
+                <div class="my-class my-class3">
 
                 </div>
               </div>
 
-              <div class="test2 swiper-slide">
-                <div class="my-class">
+              <div class="test2 ">
+                <div class="my-class my-class">
 
                 </div>
               </div>
 
-              <div class="test2 swiper-slide">
-                <div class="my-class2">
+              <div class="test2 ">
+                <div class="my-class my-class2">
 
                 </div>
               </div>
 
-              <div class="test2 swiper-slide">
-                <div class="my-class3">
+              <div class="test2 ">
+                <div class="my-class my-class3">
 
                 </div>
               </div>
@@ -309,9 +309,6 @@
 
           <div class="workshop__img">
             <picture>
-              <!-- <source type="image/webp" media="(min-width: 900px)" srcset="workshop-person-mobile@1x.webp 1x, img/workshop-person-mobile@2x.webp 2x">
-              <source type="image/webp" srcset="img/img/workshop-person@1x.webp 1x, img/img/workshop-person@2x.webp 2x"> -->
-
               <source media="(max-width: 900px)" srcset="img/workshop-person-mobile@1x.jpg 1x, img/workshop-person-mobile@2x.jpg 2x">
               <img src="img/workshop-person-desktop@1x.jpg" srcset="img/workshop-person-desktop@2x.jpg 2x" alt="Фотография Мужчина в мастерской" width="462" height="358">
             </picture>
@@ -379,7 +376,10 @@
           </div>
 
           <div class="club__img">
-
+            <picture>
+              <source media="(max-width: 900px)" srcset="img/club-person-mobile@1x.jpg 1x, img/club-person-mobile@2x.jpg 2x">
+              <img src="img/club-person-desktop@1x.jpg" srcset="img/club-person-desktop@2x.jpg 2x" alt="Фотография Мужчина в мастерской" width="539" height="358">
+            </picture>
           </div>
 
         </div> <!--/.club__inner -->
@@ -503,14 +503,14 @@
 
   <script>
     var swiper = new Swiper('.advantages-slider', {
-      // containerModifierClass: 'advantages-slider',
-      // wrapperClass: 'test2',
-      // slideClass: 'test2',
+      containerModifierClass: 'advantages-slider',
+      wrapperClass: 'test2',
+      slideClass: 'my-class',
 
 
 
-      slidesPerView: 3,
-      spaceBetween: 30,
+      // slidesPerView: 3,
+      // spaceBetween: 30,
 
       navigation: {
         nextEl: '.advantages-slider__button-next',

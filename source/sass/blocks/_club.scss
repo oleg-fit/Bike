@@ -19,8 +19,7 @@
   margin-left: 68px;
 
   background-image:
-    radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%),
-    url("../img/club-bike-bg.jpg");
+    radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -79,6 +78,14 @@ Media max-width: 1030px*/
 }
 
 /* =====================================================================================
+Media max-width: 915px*/
+@media (max-width: 915px) {
+  .club__img {
+    margin-left: 50px;
+  }
+}
+
+/* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
   .club {
@@ -100,10 +107,13 @@ Media max-width: 900px*/
     margin-left: auto;
 
     background-image:
-      radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%),
-      url("../img/club-bike-bg-mobile.jpg");
+      radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .club__img img {
+    display: block;
   }
 
   .club__content {
