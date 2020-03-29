@@ -1,6 +1,6 @@
 .bike-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -10,15 +10,10 @@
 }
 
 .bike-list__item {
+  flex-shrink: 0;
+
   max-width: 300px;
   width: 100%;
-
-  margin-right: 29px;
-  margin-bottom: 43px;
-}
-
-.bike-list__item:nth-child(3n) {
-  margin-right: 0;
 }
 
 .bike-list__img-block {
@@ -43,7 +38,6 @@
 
   transform: translateX(-50%);
 }
-
 
 .bike-list__description {
   display: flex;

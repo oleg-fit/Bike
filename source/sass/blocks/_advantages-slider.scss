@@ -1,0 +1,18 @@
+.advantages-slider {
+  position: relative;
+}
+
+
+.advantages-slider__button-next,
+.advantages-slider__button-prev {
+  position: absolute;
+  top: 102px;
+}
+
+.advantages-slider__button-next {
+  right: 24px;
+}
+
+.advantages-slider__button-prev {
+  left: 10px;
+}

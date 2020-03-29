@@ -81,7 +81,6 @@
   background-color: #e9e1d5;
 }
 
-
 .card-tabs__list-item label:hover {
   opacity: 1;
 }
@@ -138,4 +137,52 @@
   min-height: 60px;
 
   background-color: transparent;
+}
+
+
+/* =====================================================================================
+Media max-width: 975px*/
+@media (max-width: 975px) {
+  .card-tabs__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-tabs .card-tabs__content > div {
+    display: block;
+  }
+
+  .card-tabs__list {
+    display: none;
+  }
+
+  .card-tabs__content {
+    border: none;
+  }
+
+  .card-tabs__content-item {
+    position: relative;
+
+    padding-top: 21px;
+    padding-left: 0;
+  }
+
+  .card-tabs__content-item::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    background-color: #9B8869;
+  }
+
+  .card-tabs__content-item label {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
 }
