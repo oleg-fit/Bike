@@ -1,7 +1,13 @@
 .pagination {
-  padding-bottom: 128px;
+  padding-top: 56px;
+  padding-bottom: 80px;
 
   background-color: $color-pearl-bush;
+}
+
+.pagination__inner {
+  display: flex;
+  justify-content: center;
 }
 
 .pagination__list {
@@ -16,7 +22,12 @@
 }
 
 .pagination__list-item {
-  margin-right: 9px;
+  margin-right: 10px;
+}
+
+.pagination__list-item--24,
+.pagination__list-item--25 {
+  display: none;
 }
 
 .pagination__list-item a {
@@ -26,6 +37,24 @@
   color: $color-arrowtown;
 }
 
+.pagination__link-prev {
+  margin-right: 18px;
+}
+
+.pagination__link-next {
+  margin-left: 9px;
+}
+
+.pagination__svg {
+  width: 8px;
+  height: 14px;
+
+  stroke: $color-arrowtown;
+}
+
+.pagination__svg--noactive {
+  stroke: rgba($color-arrowtown, 0.6);
+}
 
 .my-class {
   width: 300px;

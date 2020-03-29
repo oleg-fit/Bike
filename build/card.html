@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Стартовый шаблон</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-  <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body class="page page--nojs">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Стартовый шаблон</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+<body>
 
-  <header class="page__header page__header--catalog header">
+  <header class="page__header page__header--card header">
 
     <div class="sidebar-menu">
       <div class="container">
@@ -91,9 +91,9 @@
             </li>
           </ul>
 
-        </div> <!--/.sidebar-menu__inner -->
+        </div> <!--/.bar-menu__inner -->
       </div> <!--/.container -->
-    </div> <!--/.sidebar-menu -->
+    </div> <!--/.header-menu -->
 
     <div class="container">
       <div class="header__inner">
@@ -142,7 +142,7 @@
               </a>
             </li>
             <li class="main-nav__item">
-              <a href="#">
+              <a href="card.html">
                 Контакты
               </a>
             </li>
@@ -190,747 +190,226 @@
   </header> <!--/.header -->
 
   <main>
-    <section class="main-filter">
+
+    <h1 class="visually-hidden">Седло Brooks B67</h1>
+
+    <section class="card">
       <div class="container">
-        <div class="main-filter__inner">
+        <div class="card__inner">
 
-          <ul class="main-filter__list">
-
-            <li class="main-filter__list-item">
-              <a href="#" class="main-filter__list-link main-filter__list-link--clear">
-                Сбросить фильтры
+          <ul class="breadcrumb-list">
+            <li class="breadcrumb-list__item">
+              <a href="#">
+                Аксессуары
               </a>
             </li>
-
-            <li class="main-filter__list-item">
-              <a href="#" class="main-filter__list-link main-filter__list-link--popularity">
-                По популярности
+            <li class="breadcrumb-list__item">
+              <a href="#">
+                /  Седла
               </a>
             </li>
-
-            <li class="main-filter__list-item">
-
-              <ul class="quantity-list">
-                <li class="quantity-list__item">
-                  <a class="quantity-list__link" href="#">
-                    Показывать по
-                  </a>
-                </li>
-
-                <li class="quantity-list__item">
-                  <a class="quantity-list__link quantity-list__link--count" href="#">
-                    12
-                  </a>
-                </li>
-
-                <li class="quantity-list__item">
-                  <a class="quantity-list__link quantity-list__link--count" href="#">
-                    24
-                  </a>
-                </li>
-
-                <li class="quantity-list__item">
-                  <a class="quantity-list__link quantity-list__link--count" href="#">
-                    Все
-                  </a>
-                </li>
-              </ul>
-
-              <ul class="appearance-list">
-                <li>
-                  <a href="#">
-                    <svg viewBox="0 0 11 11" width="11" height="11">
-                      <path d="M5 0H0V5H5V0ZM5 6H0V11H5V6ZM6 6H11V11H6V6ZM11 0H6V5H11V0Z" fill="#BA4F4F"></path>
-                    </svg>
-                    <span class="visually-hidden">Показать карточками</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <svg viewBox="0 0 12 11" width="12" height="11">
-                      <mask id="path-1-inside-1" fill="white">
-                        <path d="M0 0H1V1H0V0ZM12 0H3V1H12V0ZM12 5H3V6H12V5ZM3 10H12V11H3V10ZM1 5H0V6H1V5ZM0 10H1V11H0V10Z"></path>
-                      </mask>
-                      <path d="M0 0H1V1H0V0ZM12 0H3V1H12V0ZM12 5H3V6H12V5ZM3 10H12V11H3V10ZM1 5H0V6H1V5ZM0 10H1V11H0V10Z" fill="#9B8869"></path>
-                      <path d="M1 0H2V-1H1V0ZM0 0V-1H-1V0H0ZM1 1V2H2V1H1ZM0 1H-1V2H0V1ZM3 0V-1H2V0H3ZM12 0H13V-1H12V0ZM3 1H2V2H3V1ZM12 1V2H13V1H12ZM3 5V4H2V5H3ZM12 5H13V4H12V5ZM3 6H2V7H3V6ZM12 6V7H13V6H12ZM12 10H13V9H12V10ZM3 10V9H2V10H3ZM12 11V12H13V11H12ZM3 11H2V12H3V11ZM0 5V4H-1V5H0ZM1 5H2V4H1V5ZM0 6H-1V7H0V6ZM1 6V7H2V6H1ZM1 10H2V9H1V10ZM0 10V9H-1V10H0ZM1 11V12H2V11H1ZM0 11H-1V12H0V11ZM1 -1H0V1H1V-1ZM2 1V0H0V1H2ZM0 2H1V0H0V2ZM-1 0V1H1V0H-1ZM3 1H12V-1H3V1ZM4 1V0H2V1H4ZM12 0H3V2H12V0ZM11 0V1H13V0H11ZM3 6H12V4H3V6ZM4 6V5H2V6H4ZM12 5H3V7H12V5ZM11 5V6H13V5H11ZM12 9H3V11H12V9ZM13 11V10H11V11H13ZM3 12H12V10H3V12ZM2 10V11H4V10H2ZM0 6H1V4H0V6ZM1 6V5H-1V6H1ZM1 5H0V7H1V5ZM0 5V6H2V5H0ZM1 9H0V11H1V9ZM2 11V10H0V11H2ZM0 12H1V10H0V12ZM-1 10V11H1V10H-1Z" fill="black" mask="url(#path-1-inside-1)"></path>
-                    </svg>
-                    <span class="visually-hidden">Показать списком</span>
-                  </a>
-                </li>
-              </ul>
+            <li class="breadcrumb-list__item">
+              <a href="#">
+                /  Brooks
+              </a>
             </li>
-
           </ul>
 
+          <div class="card-description">
+
+            <div class="card-description__title-box">
+
+              <h2 class="card-description__title">
+                Седло Brooks B67
+              </h2>
+              <ul class="stars-list">
+                <li class="stars-list__item">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+                <li class="stars-list__item">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+                <li class="stars-list__item">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+                <li class="stars-list__item">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+                <li class="stars-list__item stars-list__item--noactive">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+              </ul>
+              <span class="card-description__price">
+                7 935  Р
+              </span>
+
+            </div>
+
+            <div class="card-description__slider">
+
+            </div>
+
+            <div class="card-description__content">
+
+              <h2 class="card-description__title">
+                Седло Brooks B67
+              </h2>
+              <ul class="stars-list">
+                <li class="stars-list__item">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+                <li class="stars-list__item">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+                <li class="stars-list__item">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+                <li class="stars-list__item">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+                <li class="stars-list__item stars-list__item--noactive">
+                  <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z" fill="#9B8869"></path>
+                    <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="4" width="18" height="17">
+                      <path d="M12 18.27L16.151 20.7754C16.9083 21.2325 17.8425 20.5535 17.6416 19.692L16.54 14.97L20.2086 11.7919C20.8772 11.2127 20.5198 10.1144 19.6384 10.0396L14.81 9.63L12.9207 5.17237C12.5761 4.35934 11.4239 4.35934 11.0793 5.17237L9.19 9.63L4.36163 10.0396C3.4802 10.1144 3.1228 11.2127 3.79139 11.7919L7.46 14.97L6.35841 19.692C6.15745 20.5535 7.09168 21.2325 7.849 20.7754L12 18.27Z"></path>
+                    </mask>
+                  </svg>
+                </li>
+              </ul>
+              <span class="card-description__price">
+                7 935  Р
+              </span>
+              <p class="card-description__text">
+                В комплекте ключ для регулировки, газета с полезной информацией и рекомендациями по уходу от компании-производителя. Фирменная картонная упаковка.
+              </p>
+              <span class="card-description__guarantee">
+                Гарантия 1 год
+              </span>
+              <button class="card-description__btn main-btn">
+                В корзину
+              </button>
+
+            </div>
+
+          </div> <!--/.card-description -->
+
+          <div class="card-tabs">
+
+            <input id="detailed-description" type="radio" name="description">
+            <input id="guarantee" type="radio" name="description">
+            <input id="reviews" type="radio" name="description" checked="checked">
+            <input id="survey" type="radio" name="description">
 
 
-
-
-          <div class="main-filter__block">
-
-          </div>
-
-        </div> <!--/.main-filter__inner -->
-      </div> <!--/.container -->
-    </section> <!--/.main-filter -->
-
-    <section class="catalog">
-      <div class="container">
-        <div class="catalog__inner">
-
-          <div class="catalog__filter">
-
-            <form class="form" action="#">
-
-              <fieldset class="form__fieldset form__fieldset--notborder">
-
-                <div class="range-filter">
-
-                  <div class="price-controls">
-                    <label class="min-price">
-                        <span class="visually-hidden">
-                            от
-                        </span>
-                        <input name="min-price" type="text" value="28000">
-                    </label>
-                    <label class="max-price">
-                        <span class="visually-hidden">
-                            до
-                        </span>
-                        <input name="max-price" type="text" value="180000">
-                    </label>
-                  </div>
-
-                  <div class="range-controls">
-                    <div class="scale">
-                      <div class="bar"></div>
-                    </div>
-                    <div class="toggle toggle-min"></div>
-                    <div class="toggle toggle-max"></div>
-                  </div>
-                </div>
-
-              </fieldset>
-
-              <fieldset class="form__fieldset">
-
-                <legend class="form__legend">
-                  Электровелосипед
-                </legend>
-
-                <ul class="form__list">
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="yes">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">Да</span>
-                    </label>
-                  </li>
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="no">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">Нет</span>
-                    </label>
-                  </li>
-
-                </ul>
-
-              </fieldset>
-
-              <fieldset class="form__fieldset">
-
-                <legend class="form__legend">
-                  Производитель
-                </legend>
-
-              </fieldset>
-
-              <fieldset class="form__fieldset">
-
-                <legend class="form__legend">
-                  Материал рамы
-                </legend>
-
-                <ul class="form__list">
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="yes">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">Сталь</span>
-                    </label>
-                  </li>
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="no">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">Карбон</span>
-                    </label>
-                  </li>
-                </ul>
-
-              </fieldset>
-
-              <fieldset class="form__fieldset">
-
-                <legend class="form__legend">
-                  Цвет
-                </legend>
-
-                <ul class="form__list">
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="yes">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">Черный</span>
-                    </label>
-                  </li>
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="no">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">Коричневый</span>
-                    </label>
-                  </li>
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="yes">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">Красный</span>
-                    </label>
-                  </li>
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="no">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">Голубой</span>
-                    </label>
-                  </li>
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="yes">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">Хаки</span>
-                    </label>
-                  </li>
-                </ul>
-
-              </fieldset>
-
-              <fieldset class="form__fieldset">
-
-                <legend class="form__legend">
-                  Размер
-                </legend>
-
-              </fieldset>
-
-              <fieldset class="form__fieldset">
-
-                <legend class="form__legend">
-                  Колеса
-                </legend>
-
-                <ul class="form__list">
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="yes">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">20”</span>
-                    </label>
-                  </li>
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="no">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">22”</span>
-                    </label>
-                  </li>
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="yes">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">24”</span>
-                    </label>
-                  </li>
-
-                  <li class="form__list-item">
-                    <label>
-                      <input class="visually-hidden" type="checkbox" name="no">
-                      <span class="form__check-box"></span>
-                      <span class="form__text">26”</span>
-                    </label>
-                  </li>
-                </ul>
-
-              </fieldset>
-
-              <fieldset class="form__fieldset">
-
-                <legend class="form__legend">
-                  Кол-во скоростей
-                </legend>
-
-              </fieldset>
-
-            </form>
-          </div>
-
-          <div class="catalog__content">
-
-            <ul class="bike-list">
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-1@1x.webp 1x, img/bike/catalog-bike-1@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-1@1x.png" srcset="img/bike/catalog-bike-1@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    NEUZER Chopper Apocalypse
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    24”, сталь Hi-Ten
-                  </span>
-                  <span class="bike-list__description-country">
-                    Венгрия
-                  </span>
-                  <span class="bike-list__description-price">
-                    75 000 Р
-                  </span>
-                </div>
+            <ul class="card-tabs__list">
+              <li class="card-tabs__list-item card-tabs__item--detailed-description">
+                <label for="detailed-description">Подробное описание</label>
               </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-2@1x.webp 1x, img/bike/catalog-bike-2@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-2@1x.png" srcset="img/bike/catalog-bike-2@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    Schwinn Stingray OCC
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    20”+24”, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    США
-                  </span>
-                  <span class="bike-list__description-price">
-                    34 000 Р
-                  </span>
-                </div>
+              <li class="card-tabs__list-item  card-tabs__item--guarantee">
+                <label for="guarantee">Условия гарантии</label>
               </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-3@1x.webp 1x, img/bike/catalog-bike-3@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-3@1x.png" srcset="img/bike/catalog-bike-3@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    Harley <br> Davidson
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    20”, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    Китай
-                  </span>
-                  <span class="bike-list__description-price">
-                    23 000 Р
-                  </span>
-                </div>
+              <li class="card-tabs__list-item  card-tabs__item--reviews">
+                <label for="reviews">Отзывы</label>
               </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-4@1x.webp 1x, img/bike/catalog-bike-4@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-4@1x.png" srcset="img/bike/catalog-bike-4@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    Micargi Cyclone Electric
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    26”, 500W, 5 скоростей, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    США
-                  </span>
-                  <span class="bike-list__description-price">
-                    154 000 Р
-                  </span>
-                </div>
+              <li class="card-tabs__list-item  card-tabs__item--survey">
+                <label for="survey">Обзоры</label>
               </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-5@1x.webp 1x, img/bike/catalog-bike-5@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-5@1x.png" srcset="img/bike/catalog-bike-5@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    X-Front Snowmobile
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    24”, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    Китай
-                  </span>
-                  <span class="bike-list__description-price">
-                    42 000 Р
-                  </span>
-                </div>
-              </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-6@1x.webp 1x, img/bike/catalog-bike-6@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-6@1x.png" srcset="img/bike/catalog-bike-6@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    2Fast4You Chopper
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    24”, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    Венгрия
-                  </span>
-                  <span class="bike-list__description-price">
-                    38 000 Р
-                  </span>
-                </div>
-              </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-7@1x.webp 1x, img/bike/catalog-bike-7@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-7@1x.png" srcset="img/bike/catalog-bike-7@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    NEUZER Chopper Apocalypse
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    24”, сталь Hi-Ten
-                  </span>
-                  <span class="bike-list__description-country">
-                    Венгрия
-                  </span>
-                  <span class="bike-list__description-price">
-                    75 000 Р
-                  </span>
-                </div>
-              </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-8@1x.webp 1x, img/bike/catalog-bike-8@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-8@1x.png" srcset="img/bike/catalog-bike-8@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    Schwinn Stingray OCC
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    20”+24”, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    США
-                  </span>
-                  <span class="bike-list__description-price">
-                    34 000 Р
-                  </span>
-                </div>
-              </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-9@1x.webp 1x, img/bike/catalog-bike-9@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-9@1x.png" srcset="img/bike/catalog-bike-9@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    Harley <br> Davidson
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    20”, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    Китай
-                  </span>
-                  <span class="bike-list__description-price">
-                    23 000 Р
-                  </span>
-                </div>
-              </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-10@1x.webp 1x, img/bike/catalog-bike-10@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-10@1x.png" srcset="img/bike/catalog-bike-10@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    Micargi Cyclone Electric
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    26”, 500W, 5 скоростей, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    США
-                  </span>
-                  <span class="bike-list__description-price">
-                    154 000 Р
-                  </span>
-                </div>
-              </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-11@1x.webp 1x, img/bike/catalog-bike-11@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-11@1x.png" srcset="img/bike/catalog-bike-11@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    X-Front Snowmobile
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    24”, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    Китай
-                  </span>
-                  <span class="bike-list__description-price">
-                    42 000 Р
-                  </span>
-                </div>
-              </li>
-
-              <li class="bike-list__item">
-
-                <div class="bike-list__img-block">
-
-                  <picture>
-                    <source type="image/webp" srcset="img/bike/catalog-bike-12@1x.webp 1x, img/bike/catalog-bike-12@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-12@1x.png" srcset="img/bike/catalog-bike-12@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
-                  </picture>
-
-                </div>
-
-                <div class="bike-list__description">
-                  <a href="#">
-                    <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
-                  </a>
-                  <h2 class="bike-list__description-title">
-                    2Fast4You Chopper
-                  </h2>
-                  <span class="bike-list__description-parameters">
-                    24”, сталь
-                  </span>
-                  <span class="bike-list__description-country">
-                    Венгрия
-                  </span>
-                  <span class="bike-list__description-price">
-                    38 000 Р
-                  </span>
-                </div>
-              </li>
-
-
             </ul>
+
+
+            <div class="card-tabs__content">
+              <div class="card-tabs__content-item card-tabs__detailed-description">
+                <h3 class="card-tabs__title">Title 1</h3>
+              </div>
+
+              <div class="card-tabs__content-item card-tabs__guarantee">
+                <h3 class="card-tabs__title">Title 2</h3>
+              </div>
+
+              <div class="card-tabs__content-item card-tabs__reviews">
+
+                <div class="card-tabs__user-block">
+                  <span class="card-tabs__user-name">
+                    JawPike
+                  </span>
+                  <span class="card-tabs__data">
+                    18 / 03 / 2018
+                  </span>
+                </div>
+
+                <h3 class="card-tabs__user-title">
+                  Лучшее, что могло придумать человечество
+                </h3>
+
+                <p class="card-tabs__user-coment">
+                  Это седло заменило мне женщину. Ни о чем не жалею.
+                </p>
+
+                <button class="main-btn card-tabs__btn">
+                  Оставить отзыв
+                </button>
+
+              </div>
+
+              <div class="card-tabs__content-item card-tabs__survey">
+                <h3 class="card-tabs__title">Title 4</h3>
+              </div>
+            </div>
+
           </div>
 
-        </div> <!--/.catalog__inner -->
+        </div> <!--/.card__inner -->
       </div> <!--/.container -->
-    </section> <!--/.catalog -->
+    </section> <!--/.card -->
 
-    <section class="pagination">
-      <div class="container">
-        <div class="pagination__inner">
-          <a class="pagination__link-prev" href="#">
-            <svg class="pagination__svg pagination__svg--noactive" width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7 0.999999L1 7L7 13"></path>
-            </svg>
-
-            <span class="visually-hidden">
-              Назад
-            </span>
-          </a>
-
-          <ul class="pagination__list">
-            <li class="pagination__list-item">
-              <a href="#">
-                1
-                <span class="visually-hidden">Первая страница</span>
-              </a>
-            </li>
-            <li class="pagination__list-item">
-              <a href="#">
-                2
-                <span class="visually-hidden">Вторая страница</span>
-              </a>
-            </li>
-            <li class="pagination__list-item">
-              <a href="#">
-                3
-                <span class="visually-hidden">Третья страница</span>
-              </a>
-            </li>
-            <li class="pagination__list-item">
-              <a href="#">
-                ...
-                <span class="visually-hidden">Сокращение</span>
-              </a>
-            </li>
-            <li class="pagination__list-item pagination__list-item--24">
-              <a href="#">
-                24
-                <span class="visually-hidden">Двадцать четвертая</span>
-              </a>
-            </li>
-            <li class="pagination__list-item pagination__list-item--25">
-              <a href="#">
-                25
-                <span class="visually-hidden">Двадцать пятая</span>
-              </a>
-            </li>
-            <li class="pagination__list-item">
-              <a href="#">
-                26
-                <span class="visually-hidden">Двадцать шестая</span>
-              </a>
-            </li>
-          </ul>
-
-          <a class="pagination__link-next" href="#">
-            <svg class="pagination__svg" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg" width="8" height="14">
-              <path d="M1 0.999999L7 7L1 13"></path>
-            </svg>
-
-            <span class="visually-hidden">
-              Вперед
-            </span>
-          </a>
-
-        </div>
-      </div>
-    </section>
   </main>
 
-  <footer class="page__footer page__footer--catalog footer">
+  <footer class="page__footer page__footer--card footer">
     <div class="container">
       <div class="footer__inner">
 
@@ -1038,8 +517,6 @@
       </div> <!--/.footer__inner -->
     </div> <!--/.container -->
   </footer> <!--/.footer -->
-
-  <script src="js/script.js"></script>
 
 </body>
 </html>

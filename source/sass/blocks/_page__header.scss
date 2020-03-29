@@ -2,8 +2,15 @@
   margin-bottom: -67px;
 }
 
-.page__header--catalog {
+.page__header--catalog,
+.page__header--card {
   margin-bottom: 0;
 
   background-color: $color-pearl-bush;
+}
+
+.page__header--card  {
+  padding-bottom: 45px;
+
+  border-bottom: 1px solid $color-arrowtown;
 }

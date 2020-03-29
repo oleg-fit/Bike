@@ -1,0 +1,52 @@
+.stars-list {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  max-width: 190px;
+  width: 100%;
+
+  margin-top: 0;
+  margin-bottom: 27px;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.stars-list::after {
+  content: "(9)";
+
+  position: absolute;
+  top: -6px;
+  right: 21px;
+
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  color: $color-arrowtown;
+}
+
+.stars-list__item {
+  margin-right: 4px;
+
+  width: 24px;
+  height: 24px;
+}
+
+.stars-list__item--noactive {
+  opacity: 0.5;
+}
+
+
+/* =====================================================================================
+Media max-width: 1350px*/
+@media (max-width: 1350px) {
+  .stars-list {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
