@@ -56,9 +56,21 @@
 
 /* =====================================================================================
 // Media max-width: 1500px*/
-// @media (max-width: 1500px) {
-//   .btn::before,
-//   .btn::after {
-//     max-width: 40px;
-//   }
-// }
+@media (max-width: 900px) {
+  .btn {
+    max-width: 196px;
+    min-height: 51px;
+
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .btn::before {
+    right: 203px;
+  }
+
+  .btn::after {
+    left: 203px;
+  }
+
+}

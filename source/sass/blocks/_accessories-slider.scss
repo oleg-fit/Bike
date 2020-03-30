@@ -1,0 +1,19 @@
+.accessories-slider {
+  position: relative;
+
+  overflow: hidden;
+}
+
+.accessories-slider__button-next,
+.accessories-slider__button-prev {
+  position: absolute;
+  top: 102px;
+}
+
+.accessories-slider__button-next {
+  right: 24px;
+}
+
+.accessories-slider__button-prev {
+  left: 10px;
+}

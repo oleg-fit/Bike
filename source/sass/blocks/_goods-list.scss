@@ -32,7 +32,7 @@
 .goods-list__img-block img {
   position: absolute;
   left: 50%;
-  bottom: 50px;
+  bottom: 56px;
 
   max-width: none;
 
@@ -50,6 +50,14 @@
 
 .goods-list__description a {
   z-index: 10;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.goods-list__description-parameters {
+  max-width: 200px;
+  width: 100%;
 
   margin-right: auto;
   margin-left: auto;
