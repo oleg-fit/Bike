@@ -1,7 +1,8 @@
 .advantages-slider {
   position: relative;
-}
 
+  overflow: hidden;
+}
 
 .advantages-slider__button-next,
 .advantages-slider__button-prev {

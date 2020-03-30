@@ -1,4 +1,4 @@
-.bike-list {
+.goods-list {
   display: flex;
   flex-wrap: nowrap;
 
@@ -9,14 +9,14 @@
   list-style: none;
 }
 
-.bike-list__item {
+.goods-list__item {
   flex-shrink: 0;
 
   max-width: 300px;
   width: 100%;
 }
 
-.bike-list__img-block {
+.goods-list__img-block {
   position: relative;
 
   max-width: 178px;
@@ -29,7 +29,7 @@
   border: 6px solid $color-pampas;
 }
 
-.bike-list__img-block img {
+.goods-list__img-block img {
   position: absolute;
   left: 50%;
   bottom: 50px;
@@ -39,7 +39,7 @@
   transform: translateX(-50%);
 }
 
-.bike-list__description {
+.goods-list__description {
   display: flex;
   flex-direction: column;
 
@@ -48,21 +48,21 @@
   margin-left: auto;
 }
 
-.bike-list__description a {
+.goods-list__description a {
   z-index: 10;
 
   margin-right: auto;
   margin-left: auto;
 }
 
-.bike-list__description img {
+.goods-list__description img {
   display: block;
 
   width: 50px;
   height: 50px;
 }
 
-.bike-list__description-title {
+.goods-list__description-title {
   max-width: 170px;
 
   margin-top: 14px;
@@ -78,8 +78,8 @@
   color: $color-shadow;
 }
 
-.bike-list__description-parameters,
-.bike-list__description-country {
+.goods-list__description-parameters,
+.goods-list__description-country {
   font-family: "Roboto", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 18px;
@@ -90,7 +90,7 @@
   color: $color-arrowtown;
 }
 
-.bike-list__description-price {
+.goods-list__description-price {
   margin-top: 9px;
 
   font-size: 24px;
@@ -100,28 +100,3 @@
 
   color: $color-chestnut;
 }
-
-// /* =====================================================================================
-// Media max-width: 1300px*/
-// @media (max-width: 1300px) {
-//   .bike-list__item:nth-child(2n) {
-//     margin-left: auto;
-//   }
-
-//   .bike-list__item:nth-child(3n) {
-//     margin-right: 29px;
-//   }
-// }
-
-
-// /* =====================================================================================
-// Media max-width: 928px*/
-// @media (max-width: 928px) {
-//   .bike-list__item:nth-child(2n) {
-//     margin-left: 0;
-//   }
-
-//   .bike-list__item:nth-child(3n) {
-//     margin-right: 0;
-//   }
-// }

@@ -42,6 +42,19 @@
   color: $color-shadow;
 }
 
+.advantages__btn-block {
+  margin-top: 80px;
+  padding-right: 10px;
+
+  overflow: hidden;
+}
+
+.advantages__btn {
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* =====================================================================================
 Media max-width: 850px*/
 @media (max-width: 850px) {

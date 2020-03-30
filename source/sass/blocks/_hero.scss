@@ -28,13 +28,17 @@
   margin-left: 139px;
 }
 
+.hero__social-list {
+  margin-top: 196px;
+  margin-left: auto;
+}
+
 /* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
   .hero {
     min-height: 596px;
   }
-
 
   .hero__content {
     margin-left: auto;
@@ -61,6 +65,10 @@ Media max-width: 900px*/
     margin-right: auto;
 
     letter-spacing: 0.7px;
+  }
+
+  .hero__social-list {
+    display: none;
   }
 }
 

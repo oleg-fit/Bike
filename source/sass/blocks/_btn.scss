@@ -1,0 +1,64 @@
+.btn {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 273px;
+  width: 100%;
+  min-height: 60px;
+
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  color: $color-shadow;
+
+  border: 1px solid $color-arrowtown;
+
+  transition: all linear 0.2s;
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+
+  position: absolute;
+  top: 30px;
+
+  display: block;
+
+  width: 100vw;
+  height: 1px;
+
+  background-color: $color-arrowtown;
+}
+
+.btn::before {
+  right: 282px;
+}
+
+.btn::after {
+  left: 282px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: rgba($color-shadow, 0.7);
+
+  border-color: #ccb999;
+}
+
+.btn:active {
+  color: rgba($color-shadow, 0.5);
+}
+
+
+/* =====================================================================================
+// Media max-width: 1500px*/
+// @media (max-width: 1500px) {
+//   .btn::before,
+//   .btn::after {
+//     max-width: 40px;
+//   }
+// }
