@@ -1,0 +1,35 @@
+.page__header {
+  margin-bottom: -67px;
+}
+
+.page__header--catalog,
+.page__header--card {
+  margin-bottom: 0;
+
+  background-color: $color-pearl-bush;
+}
+
+.page__header--card  {
+  padding-bottom: 45px;
+
+  border-bottom: 1px solid $color-arrowtown;
+}
+
+.page__footer {
+  margin-top: -173px;
+}
+
+.page__footer--catalog,
+.page__footer--card {
+  margin-top: 0;
+  padding-bottom: 46px;
+
+  background-color: $color-pearl-bush;
+}
+
+.page--lock {
+  position:fixed;
+  overflow-y: scroll;
+}
+
+

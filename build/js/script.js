@@ -24,5 +24,44 @@ var removeClassItem = function () {
 //   burgerBtn.addEventListener('click', addClassItem);
 // };
 
-burgerBtn.addEventListener('click', addClassItem);
-closeBtn.addEventListener('click', removeClassItem);
+// burgerBtn.addEventListener('click', addClassItem);
+// closeBtn.addEventListener('click', removeClassItem);
+
+
+// Отменяем скрол
+
+function existVerticalScroll() {
+  return document.body.offsetHeight > window.innerHeight
+}
+
+function getBodyScrollTop(): number {
+  return (
+    self.pageYOffset ||
+    (document.documentElement && document.documentElement.ScrollTop) ||
+    (document.body && document.body.scrollTop)
+  );
+};
+
+burgerBtn.addEventListener('click', e => {
+  e.preventDefault();
+
+  body.dataset.scrollY = getBodyScrollTop();
+
+  sidebarMenu.classList.add('sidebar-menu--opened');
+
+  if(existVerticalScroll()) { // новая строка
+    body.classList.add('body-lock');
+    body.style.top = `-${body.dataset.scrollY}px`;
+  }
+})
+
+closeBtn.addEventListener('click', e => {
+  e.preventDefault();
+
+  sidebarMenu.classList.remove('sidebar-menu--opened');
+
+  if(existVerticalScroll()) { // новая строка
+    body.classList.remove('body-lock');
+    window.scrollTo(0,body.dataset.scrollY);
+  }
+})
