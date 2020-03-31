@@ -8,7 +8,7 @@
   width: 100%;
 
   margin-top: 0;
-  margin-bottom: 27px;
+  margin-bottom: 0;
   padding-left: 0;
 
   list-style: none;
@@ -32,20 +32,10 @@
 .stars-list__item {
   margin-right: 4px;
 
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 17px;
 }
 
 .stars-list__item--noactive {
   opacity: 0.5;
-}
-
-
-/* =====================================================================================
-Media max-width: 1350px*/
-@media (max-width: 1350px) {
-  .stars-list {
-    margin-right: auto;
-    margin-left: auto;
-  }
 }
