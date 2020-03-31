@@ -34,13 +34,16 @@ function existVerticalScroll() {
   return document.body.offsetHeight > window.innerHeight
 }
 
-function getBodyScrollTop(): number {
-  return (
-    self.pageYOffset ||
-    (document.documentElement && document.documentElement.ScrollTop) ||
-    (document.body && document.body.scrollTop)
-  );
-};
+
+// Не работает данный кусок кода
+
+// function getBodyScrollTop(): number {
+//   return (
+//     self.pageYOffset ||
+//     (document.documentElement && document.documentElement.ScrollTop) ||
+//     (document.body && document.body.scrollTop)
+//   );
+// }
 
 burgerBtn.addEventListener('click', e => {
   e.preventDefault();

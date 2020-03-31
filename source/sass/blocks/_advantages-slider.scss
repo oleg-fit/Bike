@@ -17,3 +17,23 @@
 .advantages-slider__button-prev {
   left: 10px;
 }
+
+/* =====================================================================================
+Media max-width: 1400px*/
+@media (max-width: 1400px) {
+  .advantages-slider {
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 900px;
+    width: 100%;
+  }
+}
+
+/* =====================================================================================
+Media max-width: 950px*/
+@media (max-width: 950px) {
+  .advantages-slider {
+    max-width: 700px;
+  }
+}

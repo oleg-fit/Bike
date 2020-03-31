@@ -1,6 +1,5 @@
 .card-description {
   display: flex;
-  justify-content: space-between;
 
   padding-top: 40px;
   padding-bottom: 105px;
@@ -16,9 +15,8 @@
 }
 
 .card-description__slider {
-  height: 350px;
-  width: 518px;
-  background-color: white;
+  margin-right: 36px;
+  margin-left: 70px;
 }
 
 .card-description__title {
@@ -82,13 +80,6 @@
 /* =====================================================================================
 Media max-width: 1350px*/
 @media (max-width: 1350px) {
-  .card-description__slider {
-    width: 300px;
-
-    margin-right: auto;
-    margin-left: auto;
-  }
-
   .card-description {
     flex-direction: column;
   }

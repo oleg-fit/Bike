@@ -11,12 +11,12 @@
   display: none;
 }
 
-// #detailed-description:checked ~ .card-tabs__content .card-tabs__detailed-description,
-// #guarantee:checked ~ .card-tabs__content .card-tabs__guarantee,
-// #reviews:checked ~ .card-tabs__content .card-tabs__reviews,
-// #survey:checked ~ .card-tabs__content .card-tabs__survey {
-//   display: block;
-// }
+#detailed-description:checked ~ .card-tabs__content .card-tabs__detailed-description,
+#guarantee:checked ~ .card-tabs__content .card-tabs__guarantee,
+#reviews:checked ~ .card-tabs__content .card-tabs__reviews,
+#survey:checked ~ .card-tabs__content .card-tabs__survey {
+  display: block;
+}
 
 .card-tabs__list {
   display: flex;
@@ -53,33 +53,33 @@
   border-bottom: 0;
 }
 
-// #detailed-description:checked ~ .card-tabs__list .card-tabs__item--detailed-description label,
-// #guarantee:checked ~ .card-tabs__list .card-tabs__item--guarantee label,
-// #reviews:checked ~ .card-tabs__list .card-tabs__item--reviews label,
-// #survey:checked ~ .card-tabs__list .card-tabs__item--survey label {
-//   position: relative;
+#detailed-description:checked ~ .card-tabs__list .card-tabs__item--detailed-description label,
+#guarantee:checked ~ .card-tabs__list .card-tabs__item--guarantee label,
+#reviews:checked ~ .card-tabs__list .card-tabs__item--reviews label,
+#survey:checked ~ .card-tabs__list .card-tabs__item--survey label {
+  position: relative;
 
-//   color: $color-shadow;
+  color: $color-shadow;
 
-//   border: 1px solid $color-arrowtown;
-// }
+  border: 1px solid $color-arrowtown;
+}
 
-// #detailed-description:checked ~ .card-tabs__list .card-tabs__item--detailed-description label::after,
-// #guarantee:checked ~ .card-tabs__list .card-tabs__item--guarantee label::after,
-// #reviews:checked ~ .card-tabs__list .card-tabs__item--reviews label::after,
-// #survey:checked ~ .card-tabs__list .card-tabs__item--survey label::after {
-//   content: "";
+#detailed-description:checked ~ .card-tabs__list .card-tabs__item--detailed-description label::after,
+#guarantee:checked ~ .card-tabs__list .card-tabs__item--guarantee label::after,
+#reviews:checked ~ .card-tabs__list .card-tabs__item--reviews label::after,
+#survey:checked ~ .card-tabs__list .card-tabs__item--survey label::after {
+  content: "";
 
-//   position: absolute;
-//   left: 0;
-//   bottom: -2px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
 
-//   display: block;
-//   height: 2px;
-//   width: 100%;
+  display: block;
+  height: 2px;
+  width: 100%;
 
-//   background-color: $color-pearl-bush;
-// }
+  background-color: $color-pearl-bush;
+}
 
 .card-tabs__list-item label:hover {
   opacity: 1;

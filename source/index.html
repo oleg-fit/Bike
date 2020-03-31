@@ -896,7 +896,7 @@
       slideClass: 'goods-list__item',
 
       slidesPerView: 3,
-      spaceBetween: 30,
+      spaceBetween: 47,
       centeredSlides: true,
       // loop: true,
       // loopFillGroupWithBlank: true,
@@ -905,6 +905,21 @@
         nextEl: '.advantages-slider__button-next',
         prevEl: '.advantages-slider__button-prev',
       },
+
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 47,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 47,
+        },
+        1000: {
+          slidesPerView: 3,
+          spaceBetween: 47,
+        },
+      }
     });
 
     var swiper2 = new Swiper('.accessories-slider', {
@@ -915,8 +930,6 @@
       slidesPerView: 3,
       spaceBetween: 30,
       centeredSlides: true,
-      // loop: true,
-      // loopFillGroupWithBlank: true,
 
       navigation: {
         nextEl: '.accessories-slider__button-next',
