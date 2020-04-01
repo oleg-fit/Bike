@@ -106,3 +106,20 @@
 
   color: $color-chestnut;
 }
+
+
+/* =====================================================================================
+Media max-width: 950px*/
+@media (max-width: 950px) {
+  .goods-list__img-block {
+    min-height: 180px;
+  }
+
+  .goods-list__img-block img {
+    bottom: 28px;
+  }
+
+  .goods-list__description-price {
+    margin-top: 4px;
+  }
+}

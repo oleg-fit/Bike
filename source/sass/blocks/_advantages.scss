@@ -55,6 +55,18 @@
 }
 
 /* =====================================================================================
+Media max-width: 950px*/
+@media (max-width: 950px) {
+  .advantages__text {
+    margin-bottom: 36px;
+  }
+
+  .advantages__btn {
+    margin-top: 24px;
+  }
+}
+
+/* =====================================================================================
 Media max-width: 850px*/
 @media (max-width: 850px) {
   .advantages {

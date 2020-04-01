@@ -65,6 +65,11 @@
     line-height: 30px;
   }
 
+  .btn::before,
+  .btn::after {
+    top: 23px;
+  }
+
   .btn::before {
     right: 203px;
   }

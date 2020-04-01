@@ -14,47 +14,29 @@ var removeClassItem = function () {
   sidebarMenu.classList.remove('sidebar-menu--opened');
 };
 
-// var onClickOpenSidebarMenu = function () {
-//   burgerBtn.removeEventListener('click', addClassItem);
-//   closeBtn.addEventListener('click', removeClassItem);
-// };
-
-// var onClickCloseSidebarMenu = function () {
-//   closeBtn.removeEventListener('click', removeClassItem);
-//   burgerBtn.addEventListener('click', addClassItem);
-// };
-
-// burgerBtn.addEventListener('click', addClassItem);
-// closeBtn.addEventListener('click', removeClassItem);
-
-
 // Отменяем скрол
-
 function existVerticalScroll() {
   return document.body.offsetHeight > window.innerHeight
 }
 
-
-// Не работает данный кусок кода
-
-// function getBodyScrollTop(): number {
-//   return (
-//     self.pageYOffset ||
-//     (document.documentElement && document.documentElement.ScrollTop) ||
-//     (document.body && document.body.scrollTop)
-//   );
-// }
+function getBodyScrollTop() {
+  return (
+    self.pageYOffset ||
+    (document.documentElement && document.documentElement.ScrollTop) ||
+    (document.body && document.body.scrollTop)
+  );
+}
 
 burgerBtn.addEventListener('click', e => {
   e.preventDefault();
 
-  body.dataset.scrollY = getBodyScrollTop();
+  bodyPage.dataset.scrollY = getBodyScrollTop();
 
   sidebarMenu.classList.add('sidebar-menu--opened');
 
   if(existVerticalScroll()) { // новая строка
-    body.classList.add('body-lock');
-    body.style.top = `-${body.dataset.scrollY}px`;
+    bodyPage.classList.add('page--lock');
+    bodyPage.style.top = `-${bodyPage.dataset.scrollY}px`;
   }
 })
 
@@ -64,7 +46,7 @@ closeBtn.addEventListener('click', e => {
   sidebarMenu.classList.remove('sidebar-menu--opened');
 
   if(existVerticalScroll()) { // новая строка
-    body.classList.remove('body-lock');
-    window.scrollTo(0,body.dataset.scrollY);
+    bodyPage.classList.remove('page--lock');
+    window.scrollTo(0,bodyPage.dataset.scrollY);
   }
 })

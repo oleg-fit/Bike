@@ -143,11 +143,11 @@ Media max-width: 975px*/
 
     letter-spacing: 0.7px;
 
-    border-top: 1px solid #9B8869;
+    border-top: 1px solid $color-arrowtown;
   }
 
   .card-tabs__content-item--survey {
-    border-bottom: 1px solid #9B8869;
+    border-bottom: 1px solid $color-arrowtown;
   }
 
   .card-tabs__content-item--detailed-description,
@@ -172,11 +172,9 @@ Media max-width: 975px*/
   }
 
   .card-tabs__content-wrapper {
-    margin-top: 36px;
-  }
-
-  .card-tabs__content-wrapper {
     display: none;
+
+    margin-top: 36px;
   }
 
   #detailed-description:checked ~ .card-tabs__content .card-tabs__content-item--detailed-description .card-tabs__content-wrapper,
