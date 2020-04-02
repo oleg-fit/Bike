@@ -1,13 +1,17 @@
 .card-description {
   display: flex;
 
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 105px;
 }
 
 .card-description__content {
   max-width: 635px;
   width: 100%;
+}
+
+.card-description__content .stars-list__item {
+  margin-right: 10px;
 }
 
 .card-description__title-box {
@@ -21,7 +25,7 @@
 
 .card-description__title {
   margin-top: 0;
-  margin-bottom: 1px;
+  margin-bottom: 13px;
 
   font-size: 48px;
   line-height: 56px;
@@ -33,7 +37,8 @@
 .card-description__price {
   display: block;
 
-  margin-bottom: 10px;
+  margin-top: 22px;
+  margin-bottom: 19px;
 
   font-size: 48px;
   line-height: 56px;
@@ -42,6 +47,9 @@
 }
 
 .card-description__text {
+  max-width: 475px;
+  width: 100%;
+
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -90,6 +98,11 @@ Media max-width: 1350px*/
     text-align: center;
   }
 
+  .card-description .stars-list {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .card-description__content {
     width: 100%;
     max-width: none;
@@ -103,23 +116,77 @@ Media max-width: 1350px*/
     display: none;
   }
 
+  .card-description__slider {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .description-slider__inner {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .card-description__btn {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .card-description__text {
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
 }
 
 /* =====================================================================================
-Media max-width: 768px*/
-@media (max-width: 768px) {
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .card-description {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
   .card-description__title {
-    margin-bottom: 10px;
+    margin-bottom: 0;
+
+    font-size: 28px;
+    line-height: 56px;
+  }
+
+  .card-description .stars-list {
+    padding-left: 10px;
+  }
+
+  .card-description .stars-list::after {
+    top: -8px;
+    right: 18px;
+
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .card-description .stars-list__item {
+    margin-right: 10px;
+  }
+
+  .card-description__content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .card-description__price {
+    margin-top: 5px;
+    margin-bottom: 5px;
 
     font-size: 28px;
     line-height: 56px;
   }
 
   .card-description__text {
+    order: 1;
+
+
     margin-top: 13px;
     margin-bottom: 10px;
 
@@ -132,10 +199,21 @@ Media max-width: 768px*/
   }
 
   .card-description__btn {
+    order: 2;
+
     width: 196px;
     height: 52px;
 
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 55px;
+    margin-bottom: 14px;
+  }
+}
+
+
+/* =====================================================================================
+Media max-width: 500px*/
+@media (max-width: 500px) {
+  .card-description__text {
+    max-width: 290px;
   }
 }

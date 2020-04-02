@@ -10,7 +10,7 @@
 }
 
 .page__header--card {
-  padding-bottom: 45px;
+  padding-bottom: 38px;
 
   border-bottom: 1px solid $color-arrowtown;
 }
@@ -30,4 +30,13 @@
 .page--lock {
   position: fixed;
   overflow-y: scroll;
+}
+
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .page__header--card {
+    padding-bottom: 20px;
+  }
 }
