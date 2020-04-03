@@ -111,6 +111,10 @@
 /* =====================================================================================
 Media max-width: 950px*/
 @media (max-width: 950px) {
+  .goods-list__item {
+    padding-top: 35px;
+  }
+
   .goods-list__img-block {
     min-height: 180px;
   }

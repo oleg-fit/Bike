@@ -172,6 +172,37 @@ Media max-width: 975px*/
     opacity: 1;
   }
 
+  .card-tabs__content .card-tabs__content-item label {
+    position: relative;
+  }
+
+  .card-tabs__content .card-tabs__content-item label::after {
+    content: "";
+
+    position: absolute;
+    top: 11px;
+    right: 16px;
+
+    height: 8px;
+    width: 18px;
+
+    background-image: url("../img/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #detailed-description:checked ~ .card-tabs__content .card-tabs__content-item--detailed-description label::after,
+  #guarantee:checked ~ .card-tabs__content .card-tabs__content-item--guarantee label::after,
+  #reviews:checked ~ .card-tabs__content .card-tabs__content-item--reviews label::after,
+  #survey:checked ~ .card-tabs__content .card-tabs__content-item--survey label::after {
+    // height: 8px;
+    // width: 18px;
+
+    background-image: url("../img/up-arrow.svg");
+    // background-repeat: no-repeat;
+    // background-size: cover;
+  }
+
   .card-tabs__content-item label {
     display: block;
 
@@ -194,7 +225,7 @@ Media max-width: 975px*/
 
   .card-tabs__btn {
     margin-top: 31px;
-    margin-bottom: 16px;
+    margin-bottom: 19px;
   }
 }
 

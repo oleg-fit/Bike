@@ -111,22 +111,34 @@ Media max-width: 1350px*/
 /* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
-  .description-slider__inner {
-    width: 240px;
+  .description-slider__inner .swiper-slider__inner {
     min-height: 280px;
+    width: 240px;
   }
 
-  .description-slider img {
-    max-width: 235px;
+  .swiper-slider__img-box img {
+    top: 30px;
+    left: -4px;
+
     height: 145px;
+    width: 235px;
   }
 
-  // .description-slider__inner .swiper-wrapper {
-  //   top: 30px;
-  //   left: -6px;
-  // }
+  .swiper-slider__link-loupe {
+    left: 89px;
+  }
+
+  .description-slider__inner .swiper-container {
+    min-height: 310px;
+  }
 
   .description-slider__inner .swiper-pagination {
-    bottom: -235px;
+    bottom: 67px;
+  }
+
+  .card-description__btn {
+    margin-top: 25px;
+
+    max-width: 196px;
   }
 }

@@ -15,6 +15,27 @@
   border-bottom: 1px solid $color-arrowtown;
 }
 
+.page__header--card .user-nav__item--basket {
+  position: relative;
+}
+
+.page__header--card .user-nav__item--basket::after {
+  content: "1";
+
+  display: block;
+
+  position: absolute;
+  top: 24px;
+  right: 5px;
+
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+
+  color: #BA4F4F;
+}
+
 .page__footer {
   margin-top: -173px;
 }
@@ -32,12 +53,15 @@
   overflow-y: scroll;
 }
 
-
 /* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
   .page__header--card {
     padding-bottom: 20px;
+  }
+
+  .page__header--card .user-nav__item--basket::after {
+    display: none;
   }
 
   .page__footer--card {
