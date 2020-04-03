@@ -8,35 +8,55 @@
 }
 
 .description-slider__inner {
-  width: 353px;
-  min-height: 425px;
+  margin-left: -96px;
 
-  border: 6px solid $color-pampas;
+  background-color: #E9E1D5;
 }
-
-.description-slider img {
-  max-width: none;
-  height: 246px;
-}
-
 
 
 .description-slider__inner .swiper-container {
-  overflow: visible;
+  min-height: 453px;
 }
 
-.description-slider__inner .swiper-wrapper {
+.description-slider__inner .swiper-slider__inner {
+  position: relative;
+
+  min-height: 425px;
+  width: 353px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  border: 6px solid #F0EDE8;
+}
+
+.swiper-slider__img-box img {
   position: absolute;
-  top: 58px;
+  top: 61px;
   left: -49px;
+
+  max-width: none;
+  width: 414px;
+  height: 246px;
+}
+
+.swiper-slider__link-loupe {
+  position: absolute;
+  bottom: -31px;
+  left: 145px;
+
+  width: 50px;
+  height: 50px;
 }
 
 .description-slider__inner .swiper-pagination {
-  bottom: -372px;
-  left: 0px;
+  bottom: 74px;
+  left: 0;
 }
 
 .description-slider__inner .swiper-pagination-bullet {
+  margin-right: 5px;
+
   height: 19px;
   width: 19px;
 
@@ -44,8 +64,24 @@
 }
 
 .description-slider__inner .swiper-pagination-bullet-active {
+  position: relative;
+
   background: #333232;
   z-index: -1;
+}
+
+.description-slider__inner .swiper-pagination-bullet-active::after {
+  content: "";
+
+  position: absolute;
+  top: -5px;
+  left: -5px;
+
+  height: 25px;
+  width: 25px;
+
+  border: 2px solid #9B8869;
+  border-radius: 50px;
 }
 
 .description-slider__inner .swiper-pagination-bullet:first-child {
@@ -63,6 +99,13 @@
   z-index: 5;
 }
 
+/* =====================================================================================
+Media max-width: 1350px*/
+@media (max-width: 1350px) {
+  .description-slider__inner {
+    margin-left: auto;
+  }
+}
 
 
 /* =====================================================================================
@@ -73,17 +116,15 @@ Media max-width: 900px*/
     min-height: 280px;
   }
 
-
   .description-slider img {
     max-width: 235px;
     height: 145px;
   }
 
-
-  .description-slider__inner .swiper-wrapper {
-    top: 30px;
-    left: -6px;
-  }
+  // .description-slider__inner .swiper-wrapper {
+  //   top: 30px;
+  //   left: -6px;
+  // }
 
   .description-slider__inner .swiper-pagination {
     bottom: -235px;

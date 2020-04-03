@@ -2,8 +2,7 @@
   max-width: 1089px;
   width: 100%;
 
-  margin-right: auto;
-  margin-left: auto;
+  margin-left: 71px;
 }
 
 .card-tabs > input,
@@ -114,6 +113,15 @@
 
 .card-tabs__content-item label {
   display: none;
+}
+
+/* =====================================================================================
+Media max-width: 1350px*/
+@media (max-width: 1350px) {
+  .card-tabs {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* =====================================================================================

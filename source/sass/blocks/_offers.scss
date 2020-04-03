@@ -1,0 +1,39 @@
+.offers {
+  padding-top: 31px;
+  padding-bottom: 68px;
+
+  background-color: #E9E1D5;
+}
+
+.offers__title {
+  margin-top: 0;
+  margin-top: auto;
+  margin-bottom: 78px;
+  margin-left: auto;
+
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #817155;
+}
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .offers {
+    padding-top: 5px;
+    padding-bottom: 53px;
+  }
+
+  .offers__title {
+    margin-bottom: 27px;
+
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: #817155;
+  }
+}
