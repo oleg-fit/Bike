@@ -6,6 +6,14 @@
   display: flex;
 }
 
+.catalog__box-links {
+  display: none;
+}
+
+.catalog__link-popularity {
+  display: none;
+}
+
 .catalog__filter {
   max-width: 182px;
   width: 100%;
@@ -52,14 +60,109 @@ Media max-width: 930px*/
 /* =====================================================================================
 Media max-width: 915px*/
 @media (max-width: 915px) {
+  .catalog__box-links {
+    position: relative;
+
+    display: block;
+    margin-right: 20px;
+    padding-top: 18px;
+    padding-bottom: 22px;
+
+    border-bottom: 1px solid #9B8869;
+  }
+
+  .catalog__link {
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+
+    color: #BA4F4F;
+  }
+
+  .catalog__btn-close {
+    position: absolute;
+    top: 18px;
+    right: -5px;
+
+    background-color: transparent;
+
+    border: none;
+  }
+
+  .catalog__btn-close svg {
+    fill: #9b8869;
+  }
+
+  .catalog__link-popularity {
+    display: block;
+    max-width: 182px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 35px;
+
+    font-size: 18px;
+    line-height: 18px;
+
+    color: #9B8869;
+
+    border-bottom: 1px solid #9B8869;
+  }
+
   .catalog__filter {
+    position: fixed;
+    left: -100%;
+    top: 77px;
+
+    transition: all linear 0.3s;
+  }
+
+  .catalog__filter--active {
+    z-index: 100;
+
+    position: fixed;
+    left: 0;
+    top: 77px;
+
+    display: block;
+    height: 100vh;
+    max-width: 305px;
+
+    padding-left: 15px;
+
+    background-color: $color-pampas;
+    box-shadow: 4px 0px 20px rgba(23, 23, 22, 0.1);
+  }
+}
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .page--nojs  .catalog__inner {
+    flex-direction: column;
+  }
+
+  .page--nojs  .catalog__box-links {
+    margin-right: 0;
+  }
+
+  .page--nojs  .catalog__filter {
+    position: static;
+  }
+
+  .page--nojs  .catalog__btn-close {
     display: none;
   }
+
 }
 
 /* =====================================================================================
 Media max-width: 700px*/
 @media (max-width: 700px) {
+  .catalog__filter--active {
+    top: 59px;
+  }
+
   .catalog__content .goods-list {
     flex-direction: column;
   }

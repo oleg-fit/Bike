@@ -19,22 +19,8 @@
   left: 0;
 }
 
-.page--nojs .sidebar-menu {
-  position: static;
-
-  width: 100%;
-  min-height: 450px;
-
-  box-shadow: none;
-}
-
 .sidebar-menu__inner {
   margin-top: 18px;
-}
-
-.page--nojs .sidebar-menu__inner {
-  margin-top: 0;
-  padding-top: 15px;
 }
 
 .sidebar-menu__user-block {
@@ -47,10 +33,6 @@
   height: 14px;
 
   fill: $color-arrowtown;
-}
-
-.page--nojs .sidebar-menu__btn-close {
-  display: none;
 }
 
 .sidebar-menu__btn-close:focus svg,
@@ -134,4 +116,27 @@
   margin-right: 5px;
 
   fill: $color-arrowtown;
+}
+
+
+/* =====================================================================================
+Media max-width: 900px*/
+@media (max-width: 900px) {
+  .page--nojs .sidebar-menu {
+    position: static;
+
+    width: 100%;
+    height: 450px;
+
+    box-shadow: none;
+  }
+
+  .page--nojs .sidebar-menu__inner {
+    margin-top: 0;
+    padding-top: 15px;
+  }
+
+  .page--nojs .sidebar-menu__btn-close {
+    display: none;
+  }
 }
