@@ -24,23 +24,59 @@
   border-bottom: none;
 }
 
+.form__fieldset--price {
+  margin-bottom: 28px;
+}
+
 .form__legend {
-  padding-bottom: 14px;
+  position: relative;
+
+  width: 100%;
+
+  padding-bottom: 15px;
 
   letter-spacing: 0.7px;
+
+  cursor: pointer;
+}
+
+.form__legend::after {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: block;
+
+  width: 14px;
+  height: 15px;
+
+  background-image: url("../img/ison-plus.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form__legend--active::after {
+  background-image: url("../img/icon-minus.svg");
 }
 
 .form__list {
+  display: none;
+
   margin-top: 0;
   margin-bottom: 0;
-
   padding-left: 0;
 
   list-style: none;
 }
 
+.form__legend--active + .form__list {
+  display: block;
+}
+
 .form__list-item {
-  margin-bottom: 13px;
+  margin-bottom: 12px;
 }
 
 .form__check-box {

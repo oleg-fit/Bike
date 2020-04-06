@@ -1,5 +1,5 @@
 .pagination {
-  padding-top: 56px;
+  padding-top: 24px;
   padding-bottom: 80px;
 
   background-color: $color-pearl-bush;
@@ -37,6 +37,10 @@
   color: $color-arrowtown;
 }
 
+.pagination__list-item--active a {
+  color: $color-chestnut;
+}
+
 .pagination__link-prev {
   margin-right: 18px;
 }
@@ -72,4 +76,45 @@
   width: 300px;
   height: 150px;
   background-color: turquoise;
+}
+
+
+/* =====================================================================================
+Media max-width: 1290px*/
+@media (max-width: 1290px) {
+  .pagination__link-prev {
+    margin-right: 21px;
+  }
+
+  .pagination__svg {
+    width: 11px;
+    height: 21px;
+  }
+
+  .pagination__list-item {
+    margin-right: 22px;
+  }
+
+  .pagination__list-item a {
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .pagination__list-item--24,
+  .pagination__list-item--25 {
+    display: block;
+  }
+
+  .pagination__link-next {
+    margin-left: -1px;
+  }
+}
+
+/* =====================================================================================
+Media max-width: 700px*/
+@media (max-width: 700px) {
+  .pagination {
+    padding-top: 50px;
+    padding-bottom: 59px;
+  }
 }

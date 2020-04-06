@@ -122,7 +122,7 @@
               </a>
             </li>
             <li class="main-nav__item">
-              <a href="#">
+              <a href="card.html">
                 Аксессуары
               </a>
             </li>
@@ -196,7 +196,13 @@
 
           <ul class="main-filter__list">
 
-            <li class="main-filter__list-item">
+            <li class="main-filter__list-item main-filter__list-item--active">
+              <a href="#" class="main-filter__list-link main-filter__list-link--filters">
+                Фильтры (3)
+              </a>
+            </li>
+
+            <li class="main-filter__list-item main-filter__list-item--active">
               <a href="#" class="main-filter__list-link main-filter__list-link--clear">
                 Сбросить фильтры
               </a>
@@ -262,14 +268,6 @@
 
           </ul>
 
-
-
-
-
-          <div class="main-filter__block">
-
-          </div>
-
         </div> <!--/.main-filter__inner -->
       </div> <!--/.container -->
     </section> <!--/.main-filter -->
@@ -282,7 +280,7 @@
 
             <form class="form" action="#">
 
-              <fieldset class="form__fieldset form__fieldset--notborder">
+              <fieldset class="form__fieldset form__fieldset--price form__fieldset--notborder">
 
                 <div class="range-filter">
 
@@ -314,7 +312,7 @@
 
               <fieldset class="form__fieldset">
 
-                <legend class="form__legend">
+                <legend class="form__legend form__legend--active form__legend--electric-bicycle">
                   Электровелосипед
                 </legend>
 
@@ -342,7 +340,7 @@
 
               <fieldset class="form__fieldset">
 
-                <legend class="form__legend">
+                <legend class="form__legend form__legend--manufacturer">
                   Производитель
                 </legend>
 
@@ -350,7 +348,7 @@
 
               <fieldset class="form__fieldset">
 
-                <legend class="form__legend">
+                <legend class="form__legend .form__legend--active form__legend--material">
                   Материал рамы
                 </legend>
 
@@ -374,9 +372,9 @@
 
               </fieldset>
 
-              <fieldset class="form__fieldset">
+              <fieldset class="form__fieldset ">
 
-                <legend class="form__legend">
+                <legend class="form__legend form__legend--active  form__legend--color">
                   Цвет
                 </legend>
 
@@ -426,7 +424,7 @@
 
               <fieldset class="form__fieldset">
 
-                <legend class="form__legend">
+                <legend class="form__legend form__legend--size">
                   Размер
                 </legend>
 
@@ -434,7 +432,7 @@
 
               <fieldset class="form__fieldset">
 
-                <legend class="form__legend">
+                <legend class="form__legend form__legend--wheel form__legend--active">
                   Колеса
                 </legend>
 
@@ -476,7 +474,7 @@
 
               <fieldset class="form__fieldset">
 
-                <legend class="form__legend">
+                <legend class="form__legend form__legend--speed">
                   Кол-во скоростей
                 </legend>
 
@@ -487,101 +485,101 @@
 
           <div class="catalog__content">
 
-            <ul class="bike-list">
+            <ul class="goods-list">
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-1@1x.webp 1x, img/bike/catalog-bike-1@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-1@1x.png" srcset="img/bike/catalog-bike-1@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-1@1x.png" srcset="img/bike/catalog-bike-1@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     NEUZER Chopper Apocalypse
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     24”, сталь Hi-Ten
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     Венгрия
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     75 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-2@1x.webp 1x, img/bike/catalog-bike-2@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-2@1x.png" srcset="img/bike/catalog-bike-2@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-2@1x.png" srcset="img/bike/catalog-bike-2@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     Schwinn Stingray OCC
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     20”+24”, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     США
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     34 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-3@1x.webp 1x, img/bike/catalog-bike-3@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-3@1x.png" srcset="img/bike/catalog-bike-3@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-3@1x.png" srcset="img/bike/catalog-bike-3@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     Harley <br> Davidson
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     20”, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     Китай
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     23 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-4@1x.webp 1x, img/bike/catalog-bike-4@2x.webp 2x">
@@ -590,265 +588,264 @@
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     Micargi Cyclone Electric
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     26”, 500W, 5 скоростей, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     США
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     154 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-5@1x.webp 1x, img/bike/catalog-bike-5@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-5@1x.png" srcset="img/bike/catalog-bike-5@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-5@1x.png" srcset="img/bike/catalog-bike-5@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     X-Front Snowmobile
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     24”, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     Китай
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     42 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-6@1x.webp 1x, img/bike/catalog-bike-6@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-6@1x.png" srcset="img/bike/catalog-bike-6@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-6@1x.png" srcset="img/bike/catalog-bike-6@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     2Fast4You Chopper
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     24”, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     Венгрия
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     38 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-7@1x.webp 1x, img/bike/catalog-bike-7@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-7@1x.png" srcset="img/bike/catalog-bike-7@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-7@1x.png" srcset="img/bike/catalog-bike-7@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     NEUZER Chopper Apocalypse
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     24”, сталь Hi-Ten
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     Венгрия
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     75 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-8@1x.webp 1x, img/bike/catalog-bike-8@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-8@1x.png" srcset="img/bike/catalog-bike-8@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-8@1x.png" srcset="img/bike/catalog-bike-8@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     Schwinn Stingray OCC
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     20”+24”, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     США
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     34 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-9@1x.webp 1x, img/bike/catalog-bike-9@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-9@1x.png" srcset="img/bike/catalog-bike-9@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-9@1x.png" srcset="img/bike/catalog-bike-9@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     Harley <br> Davidson
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     20”, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     Китай
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     23 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-10@1x.webp 1x, img/bike/catalog-bike-10@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-10@1x.png" srcset="img/bike/catalog-bike-10@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-10@1x.png" srcset="img/bike/catalog-bike-10@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     Micargi Cyclone Electric
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     26”, 500W, 5 скоростей, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     США
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     154 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-11@1x.webp 1x, img/bike/catalog-bike-11@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-11@1x.png" srcset="img/bike/catalog-bike-11@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-11@1x.png" srcset="img/bike/catalog-bike-11@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     X-Front Snowmobile
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     24”, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     Китай
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     42 000 Р
                   </span>
                 </div>
               </li>
 
-              <li class="bike-list__item">
+              <li class="goods-list__item">
 
-                <div class="bike-list__img-block">
+                <div class="goods-list__img-block">
 
                   <picture>
                     <source type="image/webp" srcset="img/bike/catalog-bike-12@1x.webp 1x, img/bike/catalog-bike-12@2x.webp 2x">
-                    <img class="bike-list__img-bike" src="img/bike/catalog-bike-12@1x.png" srcset="img/bike/catalog-bike-12@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
+                    <img class="goods-list__img-bike" src="img/bike/catalog-bike-12@1x.png" srcset="img/bike/catalog-bike-12@2x.png 2x" alt="Картинка Велосипеда" width="263" height="114">
                   </picture>
 
                 </div>
 
-                <div class="bike-list__description">
+                <div class="goods-list__description">
                   <a href="#">
                     <img src="img/bike/basket-plus.jpg" alt="Иконка корзины с плюсом" width="50" height="50">
                   </a>
-                  <h2 class="bike-list__description-title">
+                  <h2 class="goods-list__description-title">
                     2Fast4You Chopper
                   </h2>
-                  <span class="bike-list__description-parameters">
+                  <span class="goods-list__description-parameters">
                     24”, сталь
                   </span>
-                  <span class="bike-list__description-country">
+                  <span class="goods-list__description-country">
                     Венгрия
                   </span>
-                  <span class="bike-list__description-price">
+                  <span class="goods-list__description-price">
                     38 000 Р
                   </span>
                 </div>
               </li>
-
 
             </ul>
           </div>
@@ -870,8 +867,8 @@
             </span>
           </a>
 
-          <ul class="pagination__list">
-            <li class="pagination__list-item">
+          <ul class="pagination__list ">
+            <li class="pagination__list-item pagination__list-item--active">
               <a href="#">
                 1
                 <span class="visually-hidden">Первая страница</span>

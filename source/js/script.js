@@ -3,6 +3,7 @@ var bodyPage = document.querySelector('body');
 var sidebarMenu = document.querySelector('.sidebar-menu');
 var burgerBtn = document.querySelector('.header__burger-btn');
 var closeBtn = document.querySelector('.sidebar-menu__btn-close');
+var form = document.querySelector('.form');
 
 bodyPage.classList.remove('page--nojs');
 
@@ -50,3 +51,13 @@ closeBtn.addEventListener('click', e => {
     window.scrollTo(0,bodyPage.dataset.scrollY);
   }
 })
+
+// Аккордеон
+
+form.addEventListener('click', function(event) {
+  var target = event.target;
+
+  if (target.tagName == 'LEGEND') {
+    target.classList.toggle("form__legend--active");
+  }
+} )
