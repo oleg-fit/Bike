@@ -41,12 +41,8 @@ Media max-width: 1290px*/
 @media (max-width: 1290px) {
   .catalog__content .goods-list__item {
     margin-right: 0;
-  }
-
-  .catalog__content .goods-list__item {
     margin-left: 60px;
   }
-
 }
 
 /* =====================================================================================
@@ -68,7 +64,7 @@ Media max-width: 915px*/
     padding-top: 18px;
     padding-bottom: 22px;
 
-    border-bottom: 1px solid #9B8869;
+    border-bottom: 1px solid $color-arrowtown;
   }
 
   .catalog__link {
@@ -76,7 +72,7 @@ Media max-width: 915px*/
     line-height: 18px;
     letter-spacing: 0.6px;
 
-    color: #BA4F4F;
+    color: $color-chestnut;
   }
 
   .catalog__btn-close {
@@ -90,7 +86,7 @@ Media max-width: 915px*/
   }
 
   .catalog__btn-close svg {
-    fill: #9b8869;
+    fill: $color-arrowtown;
   }
 
   .catalog__link-popularity {
@@ -104,9 +100,9 @@ Media max-width: 915px*/
     font-size: 18px;
     line-height: 18px;
 
-    color: #9B8869;
+    color: $color-arrowtown;
 
-    border-bottom: 1px solid #9B8869;
+    border-bottom: 1px solid $color-arrowtown;
   }
 
   .catalog__filter {
@@ -131,29 +127,28 @@ Media max-width: 915px*/
     padding-left: 15px;
 
     background-color: $color-pampas;
-    box-shadow: 4px 0px 20px rgba(23, 23, 22, 0.1);
+    box-shadow: 4px 0 20px rgba(23, 23, 22, 0.1);
   }
 }
 
 /* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
-  .page--nojs  .catalog__inner {
+  .page--nojs .catalog__inner {
     flex-direction: column;
   }
 
-  .page--nojs  .catalog__box-links {
+  .page--nojs .catalog__box-links {
     margin-right: 0;
   }
 
-  .page--nojs  .catalog__filter {
+  .page--nojs .catalog__filter {
     position: static;
   }
 
-  .page--nojs  .catalog__btn-close {
+  .page--nojs .catalog__btn-close {
     display: none;
   }
-
 }
 
 /* =====================================================================================

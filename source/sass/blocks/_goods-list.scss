@@ -13,6 +13,8 @@
   flex-shrink: 0;
 
   width: 283px;
+
+  background-color: $color-pearl-bush;
 }
 
 .goods-list__img-block {
@@ -35,6 +37,7 @@
   max-width: none;
 
   transform: translateX(-50%);
+  mix-blend-mode: multiply;
 }
 
 .goods-list__description {

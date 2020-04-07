@@ -10,7 +10,7 @@
 .description-slider__inner {
   margin-left: -96px;
 
-  background-color: #E9E1D5;
+  background-color: $color-pearl-bush;
 }
 
 
@@ -27,7 +27,7 @@
   margin-right: auto;
   margin-left: auto;
 
-  border: 6px solid #F0EDE8;
+  border: 6px solid $color-pampas;
 }
 
 .swiper-slider__img-box img {
@@ -66,7 +66,7 @@
 .description-slider__inner .swiper-pagination-bullet-active {
   position: relative;
 
-  background: #333232;
+  background: $color-mine-shaft;
   z-index: -1;
 }
 
@@ -80,22 +80,17 @@
   height: 25px;
   width: 25px;
 
-  border: 2px solid #9B8869;
+  border: 2px solid $color-arrowtown;
   border-radius: 50px;
 }
 
 .description-slider__inner .swiper-pagination-bullet:first-child {
-  background-color: #333232;
-  z-index: 5;
-}
-
-.description-slider__inner .swiper-pagination-bullet:first-child {
-  background-color: #7E5B48;
+  background-color: $color-roman-coffee;
   z-index: 5;
 }
 
 .description-slider__inner .swiper-pagination-bullet:last-child {
-  background-color: #D5B688;
+  background-color: $color-straw;
   z-index: 5;
 }
 
@@ -106,7 +101,6 @@ Media max-width: 1350px*/
     margin-left: auto;
   }
 }
-
 
 /* =====================================================================================
 Media max-width: 900px*/

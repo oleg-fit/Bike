@@ -62,12 +62,12 @@
 
   display: block;
 
-  font-family: "Roboto","Helvetica",sans-serif;
+  font-family: "Roboto", "Helvetica", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
 
-  color: #ba4f4f;
+  color: $color-chestnut;
 }
 
 .user-nav__item a:focus svg,
@@ -131,5 +131,4 @@ Media max-width: 900px*/
   .user-nav__item--search {
     display: none;
   }
-
 }

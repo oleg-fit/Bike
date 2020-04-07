@@ -2,11 +2,10 @@
   padding-top: 31px;
   padding-bottom: 68px;
 
-  background-color: #E9E1D5;
+  background-color: $color-pearl-bush;
 }
 
 .offers__title {
-  margin-top: 0;
   margin-top: auto;
   margin-bottom: 78px;
   margin-left: auto;
@@ -16,7 +15,7 @@
   text-align: center;
   text-transform: uppercase;
 
-  color: #817155;
+  color: $color-shadow;
 }
 
 /* =====================================================================================
@@ -34,6 +33,6 @@ Media max-width: 900px*/
     line-height: 30px;
     text-transform: uppercase;
 
-    color: #817155;
+    color: $color-shadow;
   }
 }
