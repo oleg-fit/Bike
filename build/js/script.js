@@ -33,61 +33,69 @@ function getBodyScrollTop() {
 
 
 //=================  Sidebar-menu
-burgerBtn.addEventListener('click', e => {
-  e.preventDefault();
+if (burgerBtn || closeBtn) {
+  burgerBtn.addEventListener('click', e => {
+    e.preventDefault();
 
-  bodyPage.dataset.scrollY = getBodyScrollTop();
+    bodyPage.dataset.scrollY = getBodyScrollTop();
 
-  sidebarMenu.classList.add('sidebar-menu--opened');
+    sidebarMenu.classList.add('sidebar-menu--opened');
 
-  if(existVerticalScroll()) { // новая строка
-    bodyPage.classList.add('page--lock');
-    bodyPage.style.top = `-${bodyPage.dataset.scrollY}px`;
-  }
-})
+    if(existVerticalScroll()) { // новая строка
+      bodyPage.classList.add('page--lock');
+      bodyPage.style.top = `-${bodyPage.dataset.scrollY}px`;
+    }
+  })
 
-closeBtn.addEventListener('click', e => {
-  e.preventDefault();
+  closeBtn.addEventListener('click', e => {
+    e.preventDefault();
 
-  sidebarMenu.classList.remove('sidebar-menu--opened');
+    sidebarMenu.classList.remove('sidebar-menu--opened');
 
-  if(existVerticalScroll()) { // новая строка
-    bodyPage.classList.remove('page--lock');
-    window.scrollTo(0,bodyPage.dataset.scrollY);
-  }
-})
+    if(existVerticalScroll()) { // новая строка
+      bodyPage.classList.remove('page--lock');
+      window.scrollTo(0,bodyPage.dataset.scrollY);
+    }
+  })
+}
+
 
 //=================  Filter
-linkFilter.addEventListener('click', e => {
-  e.preventDefault();
+if (linkFilter || closeBtnCatalog) {
+  linkFilter.addEventListener('click', e => {
+    e.preventDefault();
 
-  bodyPage.dataset.scrollY = getBodyScrollTop();
+    bodyPage.dataset.scrollY = getBodyScrollTop();
 
-  catalogFilter.classList.add('catalog__filter--active');
+    catalogFilter.classList.add('catalog__filter--active');
 
-  if(existVerticalScroll()) { // новая строка
-    bodyPage.classList.add('page--lock');
-    bodyPage.style.top = `-${bodyPage.dataset.scrollY}px`;
-  }
-})
+    if(existVerticalScroll()) { // новая строка
+      bodyPage.classList.add('page--lock');
+      bodyPage.style.top = `-${bodyPage.dataset.scrollY}px`;
+    }
+  })
 
-closeBtnCatalog.addEventListener('click', e => {
-  e.preventDefault();
+  closeBtnCatalog.addEventListener('click', e => {
+    e.preventDefault();
 
-  catalogFilter.classList.remove('catalog__filter--active');
+    catalogFilter.classList.remove('catalog__filter--active');
 
-  if(existVerticalScroll()) { // новая строка
-    bodyPage.classList.remove('page--lock');
-    window.scrollTo(0,bodyPage.dataset.scrollY);
-  }
-})
+    if(existVerticalScroll()) { // новая строка
+      bodyPage.classList.remove('page--lock');
+      window.scrollTo(0,bodyPage.dataset.scrollY);
+    }
+  })
+}
 
 // Аккордеон
+if (form) {
+  form.addEventListener('click', function(event) {
+    var target = event.target;
 
-form.addEventListener('click', function(event) {
-  var target = event.target;
+    if (target.tagName == 'LEGEND') {
+      target.classList.toggle("form__legend--active");
+    }
+  } )
+}
 
-  if (target.tagName == 'LEGEND') {
-    target.classList.toggle("form__legend--active");
-  }
-} )
+

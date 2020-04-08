@@ -1,6 +1,7 @@
 .advantages {
-  min-height: 1021px;
+  min-height: 926px;
   padding-top: 73px;
+  padding-bottom: 95px;
 
   background-color: $color-pearl-bush;
 }
@@ -72,22 +73,27 @@ Media max-width: 850px*/
   .advantages {
     min-height: 767px;
 
-    padding-top: 25px;
+    padding-top: 30px;
   }
 
   .advantages__inner {
     padding-left: 8px;
   }
 
+  .advantages__content {
+    padding-right: 0;
+  }
+
   .advantages__title {
-    margin-bottom: 13px;
+    margin-bottom: 17px;
 
     font-size: 22px;
-    line-height: 30px;
+    line-height: 33px;
+    letter-spacing: 1.2px;
   }
 
   .advantages__text {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 26px;
   }
 }

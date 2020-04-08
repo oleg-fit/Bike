@@ -22,6 +22,12 @@
   background-image: radial-gradient(38.76% 49.86% at 50.11% 50.14%, rgba(200, 145, 128, 0) 44.2%, rgba(24, 23, 21, 0.5) 100%);
   background-repeat: no-repeat;
   background-size: cover;
+
+  opacity: 0.9;
+}
+
+.workshop__img img {
+  mix-blend-mode: multiply;
 }
 
 .workshop__content {
@@ -35,6 +41,8 @@
   font-size: 48px;
   line-height: 56px;
   text-transform: uppercase;
+
+  color: $color-mongoose;
 }
 
 .workshop__content p {

@@ -56,6 +56,15 @@
   margin-left: auto;
 }
 
+.goods-list__description a:hover,
+.goods-list__description a:focus {
+  opacity: 0.7;
+}
+
+.goods-list__description a:active {
+  opacity: 0.5;
+}
+
 .goods-list__description-parameters {
   max-width: 200px;
   width: 100%;
