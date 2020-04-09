@@ -2,11 +2,12 @@
   position: relative;
 
   display: flex;
-  align-items: center;
   justify-content: center;
   max-width: 273px;
   width: 100%;
   min-height: 60px;
+
+  padding-top: 14px;
 
   font-size: 24px;
   line-height: 30px;
@@ -28,7 +29,7 @@
 
   display: block;
 
-  width: 100vw;
+  width: 415px;
   height: 1px;
 
   background-color: $color-arrowtown;
@@ -53,13 +54,23 @@
   color: rgba($color-shadow, 0.5);
 }
 
+/* =====================================================================================
+// Media max-width: 1250px*/
+@media (max-width: 1250px) {
+  .btn::before,
+  .btn::after {
+    width: 180px;
+  }
+}
 
 /* =====================================================================================
-// Media max-width: 1500px*/
+// Media max-width: 900px*/
 @media (max-width: 900px) {
   .btn {
     max-width: 196px;
     min-height: 51px;
+
+    padding-top: 10px;
 
     font-size: 22px;
     line-height: 30px;
@@ -68,6 +79,8 @@
   .btn::before,
   .btn::after {
     top: 23px;
+
+    width: 40px;
   }
 
   .btn::before {

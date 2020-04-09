@@ -1,6 +1,4 @@
 .header {
-  padding-top: 37px;
-
   color: $color-arrowtown;
 }
 
@@ -16,8 +14,9 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
   align-items: center;
+
+  padding-top: 36px;
 }
 
 .page--nojs .header__inner {
@@ -54,10 +53,6 @@
 /* =====================================================================================
 Media max-width: 1050px*/
 @media (max-width: 1150px) {
-  .header {
-    padding-top: 17px;
-  }
-
   .header__logo svg {
     width: 130px;
     height: 22px;
@@ -67,6 +62,10 @@ Media max-width: 1050px*/
 /* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
+  .header__inner {
+    padding-top: 16px;
+  }
+
   .header__burger-btn {
     display: block;
   }

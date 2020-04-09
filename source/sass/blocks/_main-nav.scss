@@ -1,11 +1,10 @@
 .main-nav {
-  max-width: 741px;
+  max-width: 746px;
   width: 100%;
 }
 
 .main-nav__list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 
   margin-top: 0;
@@ -13,6 +12,14 @@
   padding-left: 0;
 
   list-style: none;
+}
+
+.main-nav__item {
+  margin-right: 25px;
+}
+
+.main-nav__item:last-child {
+  margin-right: 0;
 }
 
 .main-nav__item a {
@@ -38,6 +45,10 @@ Media max-width: 1160px*/
 @media (max-width: 1160px) {
   .main-nav {
     max-width: 630px;
+  }
+
+  .main-nav__item {
+    margin-right: 15px;
   }
 
   .main-nav__item a {

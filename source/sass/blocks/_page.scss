@@ -1,12 +1,20 @@
-.page__header {
+.page {
+  width: 100%;
+}
+
+.page__header--index {
   margin-bottom: -67px;
 }
 
 .page__header--catalog,
 .page__header--card {
-  margin-bottom: 0;
+  padding-bottom: 39px;
 
   background-color: $color-pearl-bush;
+}
+
+.page__header--catalog .header__inner {
+  margin-bottom: 0;
 }
 
 .page__header--card {
@@ -15,18 +23,18 @@
   border-bottom: 1px solid $color-arrowtown;
 }
 
-.page__header--card .user-nav__item--basket {
+.page__header--card .user-nav__item--basket,
+.page__header--card .user-nav__item--list-goods {
   position: relative;
 }
 
-.page__header--card .user-nav__item--basket::after {
-  content: "1";
-
-  display: block;
+.page__header--card .user-nav__item--basket::after,
+.page__header--card .user-nav__item--list-goods::after {
+  content: "";
 
   position: absolute;
-  top: 24px;
-  right: 5px;
+
+  display: block;
 
   font-family: "Roboto", "Helvetica", sans-serif;
   font-size: 14px;
@@ -34,6 +42,20 @@
   letter-spacing: 0.2px;
 
   color: $color-chestnut;
+}
+
+.page__header--card .user-nav__item--basket::after {
+  content: "1";
+
+  top: 25px;
+  right: 5px;
+}
+
+.page__header--card .user-nav__item--list-goods::after {
+  content: "3";
+
+  top: 25px;
+  right: 14px;
 }
 
 .page__footer {
@@ -56,6 +78,20 @@
 /* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
+  .page__header--index {
+    margin-bottom: -38px;
+  }
+
+  .page__header--catalog,
+  .page__header--card {
+    padding-bottom: 0;
+  }
+
+  .page__header--catalog .header__inner {
+    padding-top: 16px;
+    padding-bottom: 19px;
+  }
+
   .page__header--card {
     padding-bottom: 20px;
   }

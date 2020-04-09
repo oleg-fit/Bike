@@ -42,8 +42,6 @@
 }
 
 .user-nav__item--list-goods {
-  position: relative;
-
   margin-right: 8px;
   margin-left: 22px;
 }
@@ -51,23 +49,6 @@
 .user-nav__item--list-goods svg {
   height: 18px;
   width: 28px;
-}
-
-.user-nav__item--list-goods::after {
-  content: "3";
-
-  position: absolute;
-  top: 25px;
-  right: 14px;
-
-  display: block;
-
-  font-family: "Roboto", "Helvetica", sans-serif;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.2px;
-
-  color: $color-chestnut;
 }
 
 .user-nav__item a:focus svg,

@@ -1,7 +1,4 @@
 .main-filter {
-  padding-top: 38px;
-  padding-bottom: 44px;
-
   background-color: $color-pearl-bush;
 }
 
@@ -53,6 +50,11 @@
 /* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
+  .main-filter__list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .main-filter__list-item {
     max-width: none;
   }
@@ -72,19 +74,5 @@ Media max-width: 900px*/
 
   .main-filter__list-item .main-filter__list-link--filters {
     color: $color-chestnut;
-  }
-}
-
-/* =====================================================================================
-Media max-width: 700px*/
-@media (max-width: 700px) {
-  .main-filter {
-    padding-top: 20px;
-    padding-bottom: 9px;
-  }
-
-  .main-filter__list {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }

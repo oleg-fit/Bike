@@ -121,13 +121,15 @@ Media max-width: 915px*/
     top: 77px;
 
     display: block;
-    height: 100vh;
+    height: calc(100vh - 77px);
     max-width: 305px;
 
     padding-left: 15px;
 
     background-color: $color-pampas;
     box-shadow: 4px 0 20px rgba(23, 23, 22, 0.1);
+
+    overflow-y: auto;
   }
 }
 

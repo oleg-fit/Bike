@@ -1,6 +1,4 @@
 .hero {
-  min-height: 768px;
-
   background-color: $color-сod-gray;
   background-image: url("../img/hero-bg@1x.jpg");
   background-repeat: no-repeat;
@@ -8,15 +6,20 @@
 }
 
 .hero__inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 768px;
+
   padding-top: 50px;
+  padding-bottom: 31px;
 }
 
 .hero__content {
   max-width: 600px;
   width: 100%;
 
+  margin-top: auto;
   margin-left: auto;
-  padding-top: 200px;
 }
 
 .hero__content img {
@@ -26,26 +29,30 @@
 
 .hero__content .main-btn {
   margin-top: 60px;
+  margin-bottom: 197px;
   margin-left: 139px;
 }
 
 .hero__social-list {
-  margin-top: 196px;
   margin-left: auto;
 }
 
 /* =====================================================================================
 Media max-width: 900px*/
 @media (max-width: 900px) {
-  .hero {
-    min-height: 596px;
+  .hero__inner {
+    min-height: 568px;
   }
 
   .hero__content {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 267px;
+
+    margin-top: 33px;
     margin-left: auto;
     margin-right: auto;
-
-    padding-top: 61px;
 
     text-align: center;
   }
@@ -61,9 +68,10 @@ Media max-width: 900px*/
     max-width: 240px;
     min-height: 59px;
 
-    margin-top: 134px;
-    margin-left: auto;
+    margin-top: auto;
     margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
 
     letter-spacing: 0.7px;
 
