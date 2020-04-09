@@ -37,6 +37,27 @@
   color: $color-arrowtown;
 }
 
+.pagination__link-prev:hover svg,
+.pagination__link-prev:focus svg,
+.pagination__link-next:hover svg,
+.pagination__link-next:focus svg {
+  stroke: #df8a00;
+}
+
+.pagination__link-prev:active svg,
+.pagination__link-next:active svg {
+  opacity: 0.5;
+}
+
+.pagination__list-item a:hover,
+.pagination__list-item a:focus {
+  color: #df8a00;
+}
+
+.pagination__list-item a:active {
+  opacity: 0.5;
+}
+
 .pagination__list-item--active a {
   color: $color-chestnut;
 }

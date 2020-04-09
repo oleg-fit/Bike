@@ -40,6 +40,15 @@
   cursor: pointer;
 }
 
+.form__legend:hover,
+.form__legend:focus {
+  opacity: 0.7;
+}
+
+.form__legend:active {
+  opacity: 0.5;
+}
+
 .form__legend::after {
   content: "";
 
@@ -87,6 +96,8 @@
   height: 16px;
 
   border: 1px solid $color-arrowtown;
+
+  cursor: pointer;
 }
 
 .form__check-box::before {
@@ -113,6 +124,8 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.2px;
+
+  cursor: pointer;
 }
 
 .form__list-item input:checked + .form__check-box::before {

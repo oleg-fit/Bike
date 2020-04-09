@@ -1,6 +1,7 @@
 .accessories {
   min-height: 942px;
   padding-top: 72px;
+  padding-bottom: 95px;
 
   background-color: $color-pearl-bush;
 }
@@ -53,6 +54,18 @@
 }
 
 /* =====================================================================================
+Media max-width: 950px*/
+@media (max-width: 950px) {
+  .accessories {
+    padding-bottom: 32px;
+  }
+
+  .accessories__btn-block {
+    margin-top: 25px;
+  }
+}
+
+/* =====================================================================================
 Media max-width: 850px*/
 @media (max-width: 850px) {
   .accessories {
@@ -77,9 +90,5 @@ Media max-width: 850px*/
 
     font-size: 16px;
     line-height: 24px;
-  }
-
-  .accessories__btn-block {
-    margin-top: 24px;
   }
 }

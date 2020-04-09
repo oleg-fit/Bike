@@ -40,6 +40,10 @@
   color: $color-orange-peel;
 }
 
+.main-nav__item--active a {
+  color: $color-chestnut;
+}
+
 /* =====================================================================================
 Media max-width: 1160px*/
 @media (max-width: 1160px) {

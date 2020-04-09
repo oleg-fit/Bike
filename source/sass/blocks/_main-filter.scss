@@ -43,6 +43,18 @@
   color: $color-arrowtown;
 }
 
+.main-filter__list-link--clear:hover,
+.main-filter__list-link--clear:focus,
+.main-filter__list-link--popularity:hover,
+.main-filter__list-link--popularity:focus {
+  opacity: 0.7;
+}
+
+.main-filter__list-link--clear:active,
+.main-filter__list-link--popularity:active {
+  opacity: 0.5;
+}
+
 .main-filter__list-item--active a {
   color: $color-chestnut;
 }
