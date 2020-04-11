@@ -8,9 +8,10 @@
   padding-left: 53px;
 }
 
-// .container--flex {
-//   display: flex;
-// }
+.container--flex {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* =====================================================================================
 Media max-width: 1150px*/
@@ -18,5 +19,13 @@ Media max-width: 1150px*/
   .container {
     padding-right: 15px;
     padding-left: 15px;
+  }
+}
+
+/* =====================================================================================
+Media max-width: 1150px*/
+@media (max-width: 1150px) {
+  .container--flex {
+    justify-content: center;
   }
 }
