@@ -54,6 +54,17 @@
 
   border: 1px solid rgba($color-arrowtown, 0.5);
   border-bottom: 0;
+
+  cursor: pointer;
+}
+
+.card-tabs__list-item label:hover,
+.card-tabs__list-item label:focus {
+  color: rgba($color-shadow, 0.8);
+}
+
+.card-tabs__list-item label:active {
+  color: $color-shadow;
 }
 
 #detailed-description:checked ~ .card-tabs__list .card-tabs__item--detailed-description label,

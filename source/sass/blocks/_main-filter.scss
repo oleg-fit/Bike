@@ -9,8 +9,8 @@
 
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 18px;
   padding-left: 0;
 
   border-top: 1px solid $color-arrowtown;
@@ -43,16 +43,27 @@
   color: $color-arrowtown;
 }
 
-.main-filter__list-link--clear:hover,
-.main-filter__list-link--clear:focus,
-.main-filter__list-link--popularity:hover,
-.main-filter__list-link--popularity:focus {
-  opacity: 0.7;
+.main-filter__list-item--popularity select {
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  color: #9B8869;
+
+  background: transparent;
+  border: none;
 }
 
-.main-filter__list-link--clear:active,
-.main-filter__list-link--popularity:active {
-  opacity: 0.5;
+.main-filter__list-link--clear {
+  position: relative;
+}
+
+.main-filter__list-link--clear svg {
+  position: absolute;
+  top: 2px;
+  right: -20px;
+
+  fill: $color-chestnut;
 }
 
 .main-filter__list-item--active a {
@@ -61,7 +72,7 @@
 
 /* =====================================================================================
 Media max-width: 900px*/
-@media (max-width: 900px) {
+@media (max-width: 915px) {
   .main-filter__list {
     padding-top: 10px;
     padding-bottom: 10px;

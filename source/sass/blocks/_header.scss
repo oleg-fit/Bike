@@ -37,6 +37,24 @@
   border: none;
 }
 
+.page--nojs .header__burger-btn {
+  display: none;
+}
+
+.page--nojs .page__header--card,
+.page--nojs .page__header--catalog {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  background-color: #e9e1d5;
+}
+
+.page--nojs .page__header--card .header__inner,
+.page--nojs .page__header--catalog .header__inner {
+  padding-top: 16px;
+  padding-bottom: 21px;
+}
+
 .header__logo {
   display: block;
 }

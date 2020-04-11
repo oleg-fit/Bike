@@ -43,7 +43,8 @@ Media max-width: 1290px*/
 @media (max-width: 1290px) {
   .catalog__content .goods-list__item {
     margin-right: 0;
-    margin-left: 60px;
+    margin-left: 0;
+    width: 50%;
   }
 }
 
@@ -51,7 +52,9 @@ Media max-width: 1290px*/
 Media max-width: 930px*/
 @media (max-width: 930px) {
   .catalog__content .goods-list__item {
-    margin-left: 50px;
+    width: 283px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -120,10 +123,10 @@ Media max-width: 915px*/
 
     position: fixed;
     left: 0;
-    top: 77px;
+    top: 57px;
 
     display: block;
-    height: calc(100vh - 77px);
+    height: calc(100vh - 57px);
     max-width: 305px;
 
     padding-left: 15px;
@@ -136,8 +139,8 @@ Media max-width: 915px*/
 }
 
 /* =====================================================================================
-Media max-width: 900px*/
-@media (max-width: 900px) {
+Media max-width: 875px*/
+@media (max-width: 875px) {
   .page--nojs .catalog__inner {
     flex-direction: column;
   }
@@ -158,10 +161,6 @@ Media max-width: 900px*/
 /* =====================================================================================
 Media max-width: 700px*/
 @media (max-width: 700px) {
-  .catalog__filter--active {
-    top: 59px;
-  }
-
   .catalog__content .goods-list {
     flex-direction: column;
   }

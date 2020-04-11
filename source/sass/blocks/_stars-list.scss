@@ -14,22 +14,9 @@
   list-style: none;
 }
 
-.stars-list::after {
-  content: "(9)";
-
-  position: absolute;
-  top: -6px;
-  right: 21px;
-
-  font-family: "Roboto", "Helvetica", sans-serif;
-  font-size: 22px;
-  line-height: 30px;
-  letter-spacing: 0.2px;
-
-  color: $color-arrowtown;
-}
-
 .stars-list__item {
+  position: relative;
+
   margin-right: 4px;
 
   width: 18px;
@@ -38,4 +25,17 @@
 
 .stars-list__item--noactive {
   opacity: 0.5;
+}
+
+.stars-list__item--reviews a {
+  position: absolute;
+  top: -9px;
+  right: -14px;
+
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  color: $color-arrowtown;
 }

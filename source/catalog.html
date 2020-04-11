@@ -277,13 +277,18 @@
             <li class="main-filter__list-item main-filter__list-item--active">
               <a href="#" class="main-filter__list-link main-filter__list-link--clear">
                 Сбросить фильтры
+                <svg  width="14" height="14">
+                  <use xlink:href="#icon-close-btn"></use>
+                </svg>
               </a>
             </li>
 
-            <li class="main-filter__list-item">
-              <a href="#" class="main-filter__list-link main-filter__list-link--popularity">
-                По популярности
-              </a>
+            <li class="main-filter__list-item main-filter__list-item--popularity">
+              <select name="select">
+                <option value="value1" selected>По популярности</option>
+                <option value="value2">По стоимости</option>
+                <option value="value3">По наличию</option>
+              </select>
             </li>
 
             <li class="main-filter__list-item">

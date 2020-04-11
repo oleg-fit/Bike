@@ -62,12 +62,16 @@
   margin-top: -173px;
 }
 
-.page__footer--catalog,
+.page__footer--catalog ,
 .page__footer--card {
   margin-top: 0;
-  padding-bottom: 46px;
 
   background-color: $color-pearl-bush;
+}
+
+.page__footer--catalog .footer__inner,
+.page__footer--card .footer__inner {
+  padding-bottom: 46px;
 }
 
 .page--lock {
@@ -100,8 +104,11 @@ Media max-width: 900px*/
     display: none;
   }
 
-  .page__footer--card {
+  .page__footer--catalog .footer__inner,
+  .page__footer--card .footer__inner {
     padding-top: 30px;
+
+    border-top: 1px solid #9B8869;
   }
 }
 
