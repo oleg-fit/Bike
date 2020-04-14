@@ -56,6 +56,12 @@ Media max-width: 1050px*/
   .accessories-slider {
     max-width: 600px;
   }
+
+  .accessories-slider .swiper-slide-prev,
+  .accessories-slider .swiper-slide-next {
+    opacity: 0.2;
+    pointer-events: none;
+  }
 }
 
 /* =====================================================================================
