@@ -52,6 +52,18 @@
 
   background: transparent;
   border: none;
+
+  outline: none;
+ cursor: pointer;
+}
+
+.main-filter__list-item--popularity select:hover,
+.main-filter__list-item--popularity select:focus {
+  opacity: 0.7;
+}
+
+.main-filter__list-item--popularity select:active {
+  opacity: 0.5;
 }
 
 .main-filter__list-link--clear {

@@ -2,9 +2,10 @@
   padding-top: 128px;
   padding-bottom: 291px;
 
-  background-image: url("../img/workshop-bg.jpg");
+  background-image: url("../img/workshop-bg@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right 0 top 0;
 }
 
 .club__inner {
@@ -110,6 +111,8 @@ Media max-width: 900px*/
   .club {
     padding-top: 33px;
     padding-bottom: 202px;
+
+    background-image: url("../img/workshop-bg-mobile@1x.jpg");
   }
 
   .club__inner {

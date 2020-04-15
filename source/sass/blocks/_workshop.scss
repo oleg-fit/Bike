@@ -2,9 +2,10 @@
   padding-top: 123px;
   padding-bottom: 96px;
 
-  background-image: url("../img/workshop-bg.jpg");
+  background-image: url("../img/workshop-bg@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right 0 top 0;
 }
 
 .workshop__inner {
@@ -102,6 +103,8 @@ Media max-width: 900px*/
   .workshop {
     padding-top: 33px;
     padding-bottom: 0;
+
+    background-image: url("../img/workshop-bg-mobile@1x.jpg");
   }
 
   .workshop__inner {

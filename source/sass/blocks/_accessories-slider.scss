@@ -14,6 +14,20 @@
 .accessories-slider__button-prev {
   position: absolute;
   top: 102px;
+
+  cursor: pointer;
+}
+
+.accessories-slider__button-next:hover,
+.accessories-slider__button-next:focus,
+.accessories-slider__button-prev:hover,
+.accessories-slider__button-prev:focus {
+  opacity: 0.7;
+}
+
+.accessories-slider__button-next:active,
+.accessories-slider__button-prev:active {
+  opacity: 0.5;
 }
 
 .accessories-slider__button-next {
