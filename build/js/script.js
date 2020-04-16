@@ -34,7 +34,7 @@ function getBodyScrollTop() {
 
 //=================  Sidebar-menu
 if (burgerBtn || closeBtn) {
-  burgerBtn.addEventListener('click', e => {
+  burgerBtn.addEventListener('click', function(e) {
     e.preventDefault();
 
     bodyPage.dataset.scrollY = getBodyScrollTop();
@@ -43,11 +43,11 @@ if (burgerBtn || closeBtn) {
 
     if(existVerticalScroll()) { // новая строка
       bodyPage.classList.add('page--lock');
-      bodyPage.style.top = `-${bodyPage.dataset.scrollY}px`;
+      bodyPage.style.top = bodyPage.dataset.scrollY + 'px';
     }
   })
 
-  closeBtn.addEventListener('click', e => {
+  closeBtn.addEventListener('click', function(e) {
     e.preventDefault();
 
     sidebarMenu.classList.remove('sidebar-menu--opened');
@@ -61,7 +61,7 @@ if (burgerBtn || closeBtn) {
 
 //=================  Filter
 if (linkFilter || closeBtnCatalog) {
-  linkFilter.addEventListener('click', e => {
+  linkFilter.addEventListener('click', function(e) {
     e.preventDefault();
 
     bodyPage.dataset.scrollY = getBodyScrollTop();
@@ -70,11 +70,11 @@ if (linkFilter || closeBtnCatalog) {
 
     if(existVerticalScroll()) { // новая строка
       bodyPage.classList.add('page--lock');
-      bodyPage.style.top = `-${bodyPage.dataset.scrollY}px`;
+      bodyPage.style.top = bodyPage.dataset.scrollY + 'px';
     }
   })
 
-  closeBtnCatalog.addEventListener('click', e => {
+  closeBtnCatalog.addEventListener('click', function(e) {
     e.preventDefault();
 
     catalogFilter.classList.remove('catalog__filter--active');
