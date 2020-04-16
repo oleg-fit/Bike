@@ -128,12 +128,10 @@ Media max-width: 900px*/
   }
 
   .club__img img {
+    display: block;
+
     max-width: 290px;
     height: 300px;
-  }
-
-  .club__img img {
-    display: block;
   }
 
   .club__content {

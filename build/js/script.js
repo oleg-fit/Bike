@@ -1,5 +1,5 @@
 'use strict';
-var bodyPage = document.querySelector('body');
+var bodyPage = document.querySelector('.page');
 var sidebarMenu = document.querySelector('.sidebar-menu');
 var burgerBtn = document.querySelector('.header__burger-btn');
 var closeBtn = document.querySelector('.sidebar-menu__btn-close');
@@ -7,7 +7,7 @@ var form = document.querySelector('.form');
 var linkFilter = document.querySelector('.main-filter__list-link--filters');
 var catalogFilter = document.querySelector('.catalog__filter');
 var closeBtnCatalog = document.querySelector('.catalog__btn-close');
-
+console.log('sada');
 bodyPage.classList.remove('page--nojs');
 
 var addClassItem = function () {
@@ -59,7 +59,6 @@ if (burgerBtn || closeBtn) {
   })
 }
 
-
 //=================  Filter
 if (linkFilter || closeBtnCatalog) {
   linkFilter.addEventListener('click', e => {
@@ -97,5 +96,3 @@ if (form) {
     }
   } )
 }
-
-

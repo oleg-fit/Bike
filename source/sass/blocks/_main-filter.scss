@@ -48,13 +48,13 @@
   line-height: 18px;
   text-transform: uppercase;
 
-  color: #9B8869;
+  color: $color-arrowtown;
 
   background: transparent;
   border: none;
 
   outline: none;
- cursor: pointer;
+  cursor: pointer;
 }
 
 .main-filter__list-item--popularity select:hover,
