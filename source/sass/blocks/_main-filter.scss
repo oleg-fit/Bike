@@ -20,6 +20,8 @@
 }
 
 .main-filter__list-item {
+  position: relative;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -44,16 +46,37 @@
 }
 
 .main-filter__list-item--popularity select {
+  position: relative;
+
   font-size: 18px;
   line-height: 18px;
   text-transform: uppercase;
 
   color: $color-arrowtown;
 
-  background: transparent;
+  background: none;
   border: none;
 
+  appearance: none;
   outline: none;
+  cursor: pointer;
+}
+
+.main-filter__list-item--popularity:after {
+  content: "";
+
+  position: absolute;
+  top: 6px;
+  right: 149px;
+
+  display: block;
+  width: 12px;
+  height: 12px;
+
+  background-image: url("/img/down-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
   cursor: pointer;
 }
 
